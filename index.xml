@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Somnath Kumar</title>
+    <link>https://hex-plex.github.io/</link>
+      <atom:link href="https://hex-plex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Somnath Kumar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Somnath Sendhil Kumar `2021`</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hex-plex.github.io/images/icon_hucffb9d42d7c693bd257413760c4b1fda_31806_512x512_fill_lanczos_center_2.png</url>
+      <title>Somnath Kumar</title>
+      <link>https://hex-plex.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://hex-plex.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iOTA - Modular Bot</title>
+      <link>https://hex-plex.github.io/project/gym-iota/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/project/gym-iota/</guid>
+      <description>&lt;p&gt;This is an Open-AI gym environment developed with a modular bot platform named &amp;lsquo;&lt;strong&gt;iOTA&lt;/strong&gt;&amp;rsquo;. The motive of this gym is to allow us to test out and develop Algorithms for such a MultiAgent System. This is further used to learn heirarchial planning of such a MultiAgent systems to develop a generalized swarm behaviour in the robots (i.e., Colabortively working towards achieving a objective). This is an project that is being developed under the &lt;strong&gt;RoBoReG division of the Robotics Club, IIT Varanasi.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here the robot is designed in &lt;em&gt;SolidWorks&lt;/em&gt; and being Simulated in &lt;em&gt;pybullet&lt;/em&gt;.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;img src=&#34;https://github.com/Robotics-Club-IIT-BHU/gym-iOTA/raw/master/media/Random.gif&#34;/&gt;&lt;/p&gt;&lt;br/&gt;
+&lt;p align=&#34;center&#34;&gt;Here the robots where controlled to form into this specified constellation.&lt;/p&gt;
+&lt;h2 id=&#34;iota&#34;&gt;IOTA&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/Robotics-Club-IIT-BHU/gym-iOTA/raw/master/media/bRoll.gif&#34; width=300 align=&#34;right&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;This is a cost effective modular robot platform developed by us, This contains two docking plates enabling it to dock with other robots at those locations. This has got a very antique WW1 tank inspired designed which allows the bot too with enough traction when used with catpillar tracks.&lt;/p&gt;
+&lt;p&gt;For more info on the bot hardware and designs please visit this page &lt;a href=&#34;https://github.com/Robotics-Club-IIT-BHU/gym-iOTA/blob/master/hardware_Designs/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https://onedrive.live.com/view.aspx?resid=3B7945FE006E67D!4175&amp;amp;ithint=file%2cdocx&amp;amp;authkey=!AA_ziTqK6vYo80c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doc&lt;/a&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;To install the latest features one could clone and install like so.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/Robotics-Club-IIT-BHU/gym-iOTA
+cd gym-iOTA
+pip install -e gym-iOTA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;else for stable releases. the below would work fine.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install gym-iOTA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;depedencies&#34;&gt;Depedencies&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;gym&lt;/li&gt;
+&lt;li&gt;pybullet&lt;/li&gt;
+&lt;li&gt;opencv-python&lt;/li&gt;
+&lt;li&gt;Pillow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;This environment can be accessed using gym api, and a small demo scipt is given below.&lt;/p&gt;
+&lt;h4 id=&#34;demopy&#34;&gt;demo.py&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import gym
+import gym_iOTA
+
+env = gym.make(&#39;iOTA-v0&#39;,
+                render=True,                  ## This runs the simulator in GUI mode
+                no_of_modules=10,             ## This spawns so many no of robots
+                no_of_clusters=10,            ## This is for subdividing the total no of robots in cluster for efficient accessing.
+                arena=(2,2),                  ## This sets the dimension of the forseeable space for the system
+                low_control=True,             ## This flag enables the low level control of the bot to the user.
+                )
+while True:
+  action = np.ones((env.no_of_modules, 4))    ## Where for each row we have four velocities
+  dock = np.zeros(
+              (env.no_of_modules,
+              env.no_of_modules))             ## This is the adjancy matrix storing all the docking relationships
+
+  observation, reward, done, info = env.step(action, dock)
+
+  observation                                 ## This is the coordinates+orientation of each bot
+  env.render(mode=&#39;cluster&#39;)                  ## This would return the image and even render if was not in GUI mode earlier.
+
+  if done:
+    break
+env.close()                                   ## simply removes all the docks and the bots and disconnects from the simulator.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;The objective of the environment is to use these robots to push the box from one side of the arena to the other. The below is a dry run with classical localization algorithm - &lt;strong&gt;Particle Swarm Optimization Algorithm&lt;/strong&gt;.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;img src=&#34;https://github.com/Robotics-Club-IIT-BHU/gym-iOTA/raw/master/media/Objective.gif&#34;/&gt; &lt;/p&gt;&lt;br/&gt;
+&lt;p align=&#34;center&#34;&gt;Here the swarm of bots try to localize the box in the 3D environment&lt;/p&gt;&lt;br/&gt;
+&lt;p&gt;The Reward function is defined as the negetive of the distance between the position of the cube to the end point which is on the other side of the arena.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&amp;space;\bg_white&amp;space;\fn_phv&amp;space;\large&amp;space;R&amp;space;=&amp;space;-&amp;space;\sum&amp;space;_{axes}&amp;space;(Cube_{pos}&amp;space;-&amp;space;End_{pos})^{2}&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://latex.codecogs.com/png.latex?\dpi{150}&amp;space;\bg_white&amp;space;\fn_phv&amp;space;\large&amp;space;R&amp;space;=&amp;space;-&amp;space;\sum&amp;space;_{axes}&amp;space;(Cube_{pos}&amp;space;-&amp;space;End_{pos})^{2}&#34; title=&#34;\large R = - \sum _{axes} (Cube_{pos} - End_{pos})^{2}&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;
+&lt;p&gt;This section contains details about the environment API&amp;rsquo;s and utils available in it for developement.&lt;/p&gt;
+&lt;h4 id=&#34;low_control-boolean-&#34;&gt;&lt;code&gt;low_control&lt;/code&gt; &lt;em&gt;(Boolean)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;rather confusing term is present to allow the user to get low level control of individual bot that is the to set the desired velocities of each wheel touching the ground. else the environment would by itself control the robot and listen to the planner that plans trajectory to the given setpoint.&lt;/p&gt;
+&lt;h4 id=&#34;envaction_space-gymbox-&#34;&gt;&lt;code&gt;env.action_space&lt;/code&gt; &lt;em&gt;(gym.Box)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;The action space varies if one chooses &lt;code&gt;low_control&lt;/code&gt; to be &lt;strong&gt;True&lt;/strong&gt; or &lt;strong&gt;False&lt;/strong&gt;, if the low_control is set True then action space is vector of velocities of 4 wheel for each robot.&lt;br/&gt;
+i.e., action_space shape = (no_of_modules, 4) &lt;br/&gt;
+for each row [right_forward_wheel, left_forward_wheel, right_back_wheel, left_back_wheel] of that bot.&lt;/p&gt;
+&lt;h4 id=&#34;envdockmatrix-npndarray-&#34;&gt;&lt;code&gt;env.dockMatrix&lt;/code&gt; &lt;em&gt;(np.ndarray)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;This contains all the joints or dockings that exist in the system, this a array containing if a bot is connected with another.&lt;br/&gt;
+i.e., dockMatrix shape = (no_of_modules, no_of_modules)&lt;br/&gt;
+So if &lt;strong&gt;env.dockMatrix[i][j]&lt;/strong&gt; =  0 then it means there is no joint or docking between robot number i and j. similarly if &lt;strong&gt;env.dockMatrix[i][j]&lt;/strong&gt; = 1 then it means these two robots are docked together.&lt;br/&gt;
+&lt;strong&gt;note&lt;/strong&gt; : &lt;strong&gt;env.dockMatrix[i][j]&lt;/strong&gt; = &lt;strong&gt;env.dockMatrix[j][i]&lt;/strong&gt; are same as they can have only one constrain between them. And no self docking is possible i.e., &lt;strong&gt;env.dockMatrix[i][i]&lt;/strong&gt; = 1 is not possible.&lt;br/&gt;
+We pass a similar matrix to &lt;a href=&#34;#envstep-gymenvstep-&#34;&gt;&lt;code&gt;env.step&lt;/code&gt;&lt;/a&gt; function where-in we denote new joints that we want to make.&lt;/p&gt;
+&lt;h4 id=&#34;envobservation_space-gymbox-&#34;&gt;&lt;code&gt;env.observation_space&lt;/code&gt; &lt;em&gt;(gym.Box)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;The observation space is simply vector of position and orientation of each robot.&lt;br/&gt;
+i.e., observation_space shape = (no_of_modules, 6)&lt;br/&gt;
+for each row [x_coor, y_coor, z_coor, roll, pitch, yaw] of that bot.&lt;/p&gt;
+&lt;h4 id=&#34;enviotas-class-iota-&#34;&gt;&lt;code&gt;env.iotas&lt;/code&gt; &lt;em&gt;(class iOTA)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;This is a list of robots that have been spawned into the simulator and gives us individual control over each robot. A list API&amp;rsquo;s and variables are given &lt;a href=&#34;https://hex-plex.github.io/gym-iOTA/gym_iOTA/envs&#34;&gt;here&lt;/a&gt;. &lt;br/&gt;
+The index of each robot in the list the robot number assigned to it which is the convection we use through out.&lt;/p&gt;
+&lt;h4 id=&#34;envstep-gymenvstep-&#34;&gt;&lt;code&gt;env.step&lt;/code&gt; &lt;em&gt;(gym.Env.step)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;This takes in two inputs one action being the &lt;a href=&#34;#envaction_space-gymbox-&#34;&gt;&lt;code&gt;env.action_space&lt;/code&gt;&lt;/a&gt; and a dock matrix similar to the &lt;a href=&#34;#envdockmatrix-npndarray-&#34;&gt;&lt;code&gt;env.dockingMatrix&lt;/code&gt;&lt;/a&gt; &lt;br/&gt;
+it returns the usual &lt;br/&gt;
+&lt;em&gt;&lt;code&gt;observation, reward, done, info&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;envrender-npndarray-&#34;&gt;&lt;code&gt;env.render&lt;/code&gt; &lt;em&gt;(np.ndarray)&lt;/em&gt; :&lt;/h4&gt;
+&lt;p&gt;This returns the image of the top view of the arena. The image is also rendered using PIL&amp;rsquo;s Image class if &lt;code&gt;mode = &#39;human&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;envclose-gymenvclose&#34;&gt;&lt;code&gt;env.close&lt;/code&gt; &lt;em&gt;(gym.Env.close)&lt;/em&gt;:&lt;/h4&gt;
+&lt;p&gt;This simply removes all the joints and dockings and removes all the bodies and closes the connection to the physics server.&lt;/p&gt;
+&lt;h2 id=&#34;the-team&#34;&gt;The Team&lt;/h2&gt;
+&lt;table&gt;
+ &lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/hex-plex&#34;&gt;
+    &lt;img src=&#34;https://avatars0.githubusercontent.com/u/56990337?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Somnath Sendhil Kumar &lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+    &lt;/td&gt;
+    &lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/surabhit-08&#34;&gt;
+    &lt;img src=&#34;https://avatars3.githubusercontent.com/u/62366465?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Surabhit Gupta&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+	&lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/rtharungowda&#34;&gt;
+    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/55887709?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;R Tharun Gowda&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+	&lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/Kritika-Bansal&#34;&gt;
+    &lt;img src=&#34;https://avatars2.githubusercontent.com/u/57754061?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Kritika Bansal&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;mentors&#34;&gt;Mentors&lt;/h2&gt;
+&lt;table&gt;
+ &lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/lok-i&#34;&gt;
+    &lt;img src=&#34;https://avatars1.githubusercontent.com/u/54435909?s=460&amp;u=29af076049dab351b2e43621e9a433919bf50fb1&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Lokesh Krishna&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+    &lt;/td&gt;
+    &lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/NiranthS&#34;&gt;
+    &lt;img src=&#34;https://media-exp1.licdn.com/dms/image/C4D03AQE0VSQ1pjwEJQ/profile-displayphoto-shrink_200_200/0/1597415223546?e=1616025600&amp;v=beta&amp;t=MLymy6q1n58MV2aL2l-13cnGJytixf5qnQV7HhZ4itE&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Niranth Sai&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;&lt;a id=&#34;1&#34;&gt;[1]&lt;/a&gt;
+&lt;strong&gt;Swarmbot-Hardware&lt;/strong&gt;: Mondada, F., Pettinaro, G.C., Guignard, A. et al. Swarm-Bot: A New Distributed Robotic Concept. Autonomous Robots 17, 193–221 (2004). doi: 10.1023/B:AURO.0000033972.50769.1c.&lt;br/&gt;
+This contains the Idea behind Swarmbot which was the bot we are inspired by. &lt;a href=&#34;http://people.idsia.ch/~luca/swarmbot-hardware.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.youtube.com/watch?v=77SEQ-kj8PI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Video]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;2&#34;&gt;[2]&lt;/a&gt;
+&lt;strong&gt;Self-reconfiguring modular robot.&lt;/strong&gt; This contains all the pre-existing works in Modular robots and information of their prototypes &lt;a href=&#34;https://en.wikipedia.org/wiki/Self-reconfiguring_modular_robot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Wikipedia]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;3&#34;&gt;[3]&lt;/a&gt;
+&lt;strong&gt;SMORES-EP&lt;/strong&gt; : Researchers develop modular bots that combine to form a single flexible machine. This article contains few bot ideas we adopted &lt;a href=&#34;https://www.engadget.com/2019-07-23-modular-robots-configure-smores.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;4&#34;&gt;[4]&lt;/a&gt;
+&lt;strong&gt;Modular Self-Reconfiguring Robots&lt;/strong&gt; Rus Robotics laboratory&amp;rsquo;s work in the field Modular Robots &lt;a href=&#34;https://groups.csail.mit.edu/drl/modular_robots/modular_robots.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[MIT]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;5&#34;&gt;[5]&lt;/a&gt;
+&lt;strong&gt;An integrated system for perception-driven autonomy with modular robots&lt;/strong&gt; J. Daudelin, G. Jing, T. Tosun, et al. An integrated system for perception-driven autonomy with modular robots Science Robotics  31 Oct 2018: Vol. 3, Issue 23, eaat4983 DOI: 10.1126/scirobotics.aat4983 &lt;a href=&#34;https://robotics.sciencemag.org/content/3/23/eaat4983.full?ijkey=iBq7yW7Z8vmjE&amp;amp;keytype=ref&amp;amp;siteid=robotics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;6&#34;&gt;[6]&lt;/a&gt;
+&lt;strong&gt;Symbrion&lt;/strong&gt; S. Kernbach, E. Meister, F. Schlauter, et al. Symbiotic robot organisms: Replicator and Symbrion projects January 2008 DOI: 10.1145/1774674.1774685 Conference: Proceedings of the 8th Workshop on Performance Metrics for Intelligent Systems. This is one such project from which we have been immensily inspired &lt;a href=&#34;https://www.researchgate.net/publication/234116421_Symbiotic_robot_organisms_Replicator_and_Symbrion_projects&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Paper]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;7&#34;&gt;[7]&lt;/a&gt;
+&lt;strong&gt;Modular Bot Algorithm&lt;/strong&gt; H. Ahmadzadeh, E. Masehian, Modular robotic systems: Methods and algorithms for abstraction, planning, control, and synchronization, Volume 223, 2015, Pages 27-64, ISSN 0004-3702, doi: 10.1016/j.artint.2015.02.004. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0004370215000260&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Paper]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;8&#34;&gt;[8]&lt;/a&gt;
+&lt;strong&gt;KiloBots&lt;/strong&gt; by Self-Organizing Systems Research Group &lt;a href=&#34;https://ssr.seas.harvard.edu/kilobots&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt; This is the most simplest swarm system by which we were able to learn about the real problems that we would face in a MultiAgent System.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;9&#34;&gt;[9]&lt;/a&gt;
+&lt;strong&gt;KiloBots-MARL&lt;/strong&gt; by Somnath Sendhil Kumar, This is a MultiAgent Reinforcement Learning solution presented for the Kilobots system &lt;a href=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;10&#34;&gt;[10]&lt;/a&gt;
+&lt;strong&gt;pyBullet&lt;/strong&gt;, This is the simulator that we used to simulate our Robots physics in and built The enviroment on top of it. &lt;a href=&#34;https://pybullet.org/wordpress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt; &lt;a href=&#34;https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Docs]&lt;/a&gt; &lt;a href=&#34;https://github.com/bulletphysics/bullet3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;11&#34;&gt;[11]&lt;/a&gt;
+&lt;strong&gt;Open-AI gym&lt;/strong&gt;, This framework connected the simulators to API&amp;rsquo;s that are standard form in implementing Reinforcement Learning.
+&lt;a href=&#34;https://gym.openai.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt; &lt;a href=&#34;https://gym.openai.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Docs]&lt;/a&gt; &lt;a href=&#34;https://github.com/openai/gym&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;12&#34;&gt;[12]&lt;/a&gt;
+&lt;strong&gt;Pybullet and OpenAI gym&lt;/strong&gt;, This is a tutorial which helps in implementing Pybullet as the backend with OpenAI gym, &lt;a href=&#34;https://www.etedal.net/2020/04/pybullet-panda.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;13&#34;&gt;[13]&lt;/a&gt;
+&lt;strong&gt;SW to URDF&lt;/strong&gt;, This is the SolidWorks plugin that we used to convert our SolidWork Designs into importable URDFS which is provided by the ROS community. &lt;a href=&#34;http://wiki.ros.org/sw_urdf_exporter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Link]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://hex-plex.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; data-caption=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+
+
+  &lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/guide/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PauciBot</title>
+      <link>https://hex-plex.github.io/project/paucibot/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/project/paucibot/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This Repository contains the hardware designs of the Two Wheeled ROS enabled robot capable of self - balancing and also able to run SLAM and Localize itself with just Odometry, Encoders on the wheel and the Camera used with Depth Maps&lt;a href=&#34;#1&#34;&gt;[1]&lt;/a&gt; to get a partially accurate Depth information of the surronding. This is partially inspired from the Turtlebot&lt;a href=&#34;#2&#34;&gt;[2]&lt;/a&gt; but it must be kept in mind the algorithm has be able to model the two wheeled bot to even account for its self balancing action which was solved using accurate System Modelling&lt;a href=&#34;#3&#34;&gt;[3]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/PauciBot-Hardware/master/images/Paucibot.jpg&#34; alt=&#34;Bot in all its glory&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;The above is the bot in all its glory, I had built The Hardware before running simulations and testing out its stability as its quite an symmetrical and simple design. This surely resembles turtlebot but has a few changes. Basically the idea was to have a worthy replacement for a turtlebot to test out all the mapping and planning algorithms on it.&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;After the construction it was quite easy to make a 3D design for the simulators. My Weapon of choice Phobos&lt;a href=&#34;#4&#34;&gt;[4]&lt;/a&gt; and &lt;a href=&#34;https://www.blender.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blender&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below is a simple design of the bot in blender.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/PauciBot-Hardware/master/images/Blender_Modelling.png&#34; alt=&#34;Blender Design&#34;&gt;&lt;/p&gt;
+&lt;p&gt;With some Phobos magics 🎉🎉&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/PauciBot-Hardware/master/images/URDF_generation.png&#34; alt=&#34;Phobos&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We can set the parameters required for generating URDF of the bot.&lt;/p&gt;
+&lt;p&gt;Exporting it just makes the work run naturally with Gazebo, PyBullet and any other Simulator of choice. The below is a simple &lt;strong&gt;PID control on the Pitch&lt;/strong&gt; of the Bot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/PauciBot-Hardware/master/images/PyBullet-PID.png&#34; alt=&#34;PyBullet PID&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can get the same output running the following in the terminal.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/hex-plex/PauciBot-Hardware.git
+cd PauciBot-Hardware
+python scripts/trial.py
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;under-development&#34;&gt;Under-Development&lt;/h2&gt;
+&lt;p&gt;The Main objective was that I wanted to explore the Difficulties faced when taking the Project from simulation to reality and vice versa. The Main tool is &lt;strong&gt;ROS&lt;/strong&gt; as its a well established community with most useful tools opensourced for all. Hence I would like to release The bot with a ROS package. I have been currently working on the same for the past few months.&lt;/p&gt;
+&lt;p&gt;Hope to see you there soon. : )&lt;/p&gt;
+&lt;h2 id=&#34;components&#34;&gt;Components&lt;/h2&gt;
+&lt;p&gt;The whole body is made of Ply wood and solid wood. And the wheels are just off the shelf RC car wheels with a 11.1 V LiPo battery.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;arduino-mega-2560&#34;&gt;Arduino Mega 2560&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have used this for controlling the motor drivers and getting a Odometry and runnning a baseline self balancing algorithm.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;nvidia-jetson-nano-4gb&#34;&gt;Nvidia Jetson Nano 4GB&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is the ROS hardware Node on the Robot which communicates to a master on the localhost using UDP protocol. This is also used to give the neccesary computational power for onboard Computer Vision algorithms.
+&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/PauciBot-Hardware/master/images/Jetson.jpg&#34; alt=&#34;Jetson&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;mpu9250&#34;&gt;MPU9250&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Simple sensor for Odometry.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;l298-motor-driver&#34;&gt;L298 Motor Driver&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Motor driver for controlling 2 Motors&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;lm2596s-buck&#34;&gt;LM2596S Buck&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For regulating voltage comming from the battery.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;logitech-c290&#34;&gt;Logitech C290&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a high quality webcam that can be easily used for capturing images at incredibly high resolution and quality.
+&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/PauciBot-Hardware/master/images/Logi_C290.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;&lt;a id=&#34;1&#34;&gt;[1]&lt;/a&gt; Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints. Reza Mahjourian, Martin Wicke, Anelia Angelova &lt;a href=&#34;https://sites.google.com/view/vid2depth&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;2&#34;&gt;[2]&lt;/a&gt; Turtlebot is a ROS standard platform robot. &lt;a href=&#34;https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;3&#34;&gt;[3]&lt;/a&gt;
+A Tutorial on Modelling and Control of Two- Wheeled Self-Balancing Robot with Stepper Motor &lt;a href=&#34;https://www.researchgate.net/publication/334731253_A_Tutorial_on_Modelling_and_Control_of_Two-_Wheeled_Self-Balancing_Robot_with_Stepper_Motor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;4&#34;&gt;[4]&lt;/a&gt; Phobos is an add-on for Blender. &lt;a href=&#34;https://github.com/dfki-ric/phobos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KiloBot MultiAgent Reinforcement Learning</title>
+      <link>https://hex-plex.github.io/project/kilobot-multiagentrl/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/project/kilobot-multiagentrl/</guid>
+      <description>&lt;p&gt;This is an experimentation to learn about Swarm Robotics with help of MultiAgent Reinforcement learning. We have used KiloBot as a platform as these are very simple in the actions space and have very high degree of symmetry. The Main inspiration of this project is this paper&lt;a href=&#34;#1&#34;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;setting-up&#34;&gt;Setting Up&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/hex-plex/KiloBot-MultiAgent-RL
+cd KiloBot-MultiAgent-RL
+pip install --upgrade absl-python \
+                      tensorflow \
+                      gym \
+                      opencv-python \
+                      tensorflow_probability \
+                      keras \
+                      pygame
+pip install -e gym-kiloBot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This should fetch and install the basics packages needed and should install the environment&lt;/p&gt;
+&lt;h3 id=&#34;sample-of-environment&#34;&gt;Sample of environment&lt;/h3&gt;
+&lt;p&gt;These envs are running on a constant &lt;strong&gt;Dummy-actions!!&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Env with Graph Objective&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;Env with Localization Objective&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/env_test_graph_compress.gif?raw=true&#34; alt=&#34;Output-1&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/env_test_localize_compress.gif?raw=true&#34; alt=&#34;Output-2&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python env-test.py ## This will help you check the functionality of the environement and should give the sample code to understand the apis as well.
+python model-train.py \
+        --headless=True \             ## for headless training default False
+        --objective=&amp;quot;localization&amp;quot; \  ## defines the objective default is graph
+        --modules=10 \                ## This defines the no of modules to be initialized default 10
+        --time_steps=100000 \         ## This is the total no of steps the agent will take while learning
+        --histRange=10 \              ## This is the no of mu values for the histograms
+        --logdir=&amp;quot;logs&amp;quot; \             ## This specifies the log location for TensorBoard
+        --checkpoints=&amp;quot;checkpoints&amp;quot;   ## This is for defining the location where the model is to be saved
+        --load_checkpoint=&amp;quot;checkpoints/iter-500&amp;quot; ## This loads the specified iteration
+
+python play-model.py \ ## This should load trained weights and show the performance
+        --load_checkpoint=&amp;quot;checkpoints/graphs/10&amp;quot; \ ## loads this model
+        --modules=10  \                             ## no of modules in the env
+        --objective=&amp;quot;localization&amp;quot; \                ## Sets the objective function
+        --time_steps=10000 \                        ## No of iterations to be run
+        --histRange=10                              ## Same def as above
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;After a exhaustive amount of training on varies combinations of no_of_modules and task in hand I have obtained results of the following algorithm for these parameters.
+I have used &lt;code&gt;[5, 10, 15, 20, 25, 50]&lt;/code&gt; number of modules to carryout the tests.&lt;/p&gt;
+&lt;p&gt;One may find the Tensorboard log files here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/11NtimYoXOBGopIxziAojti0k1kfbaVBQ/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; log_kilobot [Drive Link] (403MB)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and the Model Weights for each parameters here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/12qpbPIOrC-hLGVn2a8GETrkNL89bt8Dt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; checkpoint_kilobot [Drive Link] (63.3MB)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;graph-problem&#34;&gt;Graph Problem&lt;/h3&gt;
+&lt;p&gt;The below table is based on the number of modules used but for result tabulation I am considering
+&lt;code&gt;[5, 10, 20, 50]&lt;/code&gt;
+number of modules. To infer many insights of the algorithm in hand.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;b&gt;Please click on the image to zoom in&lt;/b&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model Trained on &lt;strong&gt;\&lt;/strong&gt; Model Run on&lt;/th&gt;
+&lt;th&gt;10&lt;/th&gt;
+&lt;th&gt;20&lt;/th&gt;
+&lt;th&gt;50&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/10trainon10.gif?raw=true&#34; alt=&#34;Success1&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/10trainon20.gif?raw=true&#34; alt=&#34;Success2&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/10trainon50.gif?raw=true&#34; alt=&#34;Success3&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/20trainon20.gif?raw=true&#34; alt=&#34;Random1&#34;&gt;&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/50trainon50.gif?raw=true&#34; alt=&#34;Random2&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+The policies trained on 20 and 50 module system is completely random in sense it just goes forward.
+&lt;p&gt;We can see clearly the policy trained with 10 modules have yield a very good amount of coordination between each other that is the critic model taking in the input image of the system is able to specify the bots and guide them, Hence a very good amount of generalization is found when we use this model with system with different number of modules as can be seen with the 20 module system but the non stationarity of a higher order system makes it complex for the critic to reward or give baseline to the actor, As the&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The order of the reward changes drastically.&lt;/li&gt;
+&lt;li&gt;The Reading from the histogram becomes Muddy.&lt;/li&gt;
+&lt;li&gt;The correlation of a reward to action of a single agent reduces drastically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Hence the Model trained with 10 modules is not able to generalize to the 50 module system, &lt;strong&gt;BUT&lt;/strong&gt; It looks more promising than the policy trained for the 50 module system itself, hence a curiculum learning based approach seems promising to solve such a transfer learning problem.&lt;/p&gt;
+&lt;h4 id=&#34;plots-for-training-with-10-modules&#34;&gt;Plots for Training with 10 modules&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Actor Loss&lt;/th&gt;
+&lt;th&gt;Critic Loss&lt;/th&gt;
+&lt;th&gt;Reward&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/actor10.jpg?raw=true&#34; alt=&#34;Actor Loss&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/critic10.jpg?raw=true&#34; alt=&#34;Critic Loss&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/reward10.jpg?raw=true&#34; alt=&#34;Reward&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;for-5-modules&#34;&gt;For 5 modules&lt;/h4&gt;
+&lt;p&gt;The system can&amp;rsquo;t comphensate for the negetive reward got by using fuel as the reward got for graphing is much smaller in order than it that it chooses to be stagnent.
+&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/5trainon5.gif?raw=true&#34; alt=&#34;Failed&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;localization-problem&#34;&gt;Localization Problem&lt;/h3&gt;
+&lt;p&gt;Here the task was much easier but the training didnt yield any satisfactory result as.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;there were a lot of non stationarities and the fact the system was modelled based on a fashion which couldn&amp;rsquo;t extend more than a small system of at best 10 modules &lt;a href=&#34;1&#34;&gt;[1]&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;And the fact that the reward of localization couldnt exceed the negetive reward for moving the bot that is the bots choose to stand still to save fuel over exploring in most of the senarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below are few runs with &lt;code&gt;[10, 25]&lt;/code&gt;
+Number of modules.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Localization trained for small n(=10)&lt;/th&gt;
+&lt;th&gt;Localization trained for big n(=25)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/15loc15.gif?raw=True&#34; alt=&#34;loc10&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/KiloBot-MultiAgent-RL/blob/master/images/25loc25.gif?raw=True&#34; alt=&#34;loc25&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Here it is clearly visible that because of randomness and the fact more number of can cover a larger space of the system exploration is much easier than being greedy to stay at a point and save fuel.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;To Center for Computing and Information Services, IIT (BHU) varanasi to provide the computational power, i.e., The Super Computer on which I was able to train for over &lt;strong&gt;10 Million Timesteps&lt;/strong&gt; for about 1.5 months.&lt;/p&gt;
+&lt;p&gt;For any other query feel free to reachout.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;&lt;a id=&#34;1&#34;&gt;[1]&lt;/a&gt;
+&lt;strong&gt;Guided Deep Reinforcement Learning for Swarm Systems&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/1709.06011&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[arXiv:1709.06011v1]&lt;/a&gt; [cs.MA] 18 Sep 2017&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hand Imitation</title>
+      <link>https://hex-plex.github.io/project/hand-imitation/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/project/hand-imitation/</guid>
+      <description>&lt;p&gt;RL-based learning for a robotic arm to imitate a given hand in a image feed
+with &lt;a href=&#34;https://github.com/hex-plex/gym-handOfJustice&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;handOfJustice&lt;/a&gt; as our environment&lt;/p&gt;
+&lt;h2 id=&#34;to-setup&#34;&gt;To Setup&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;pip install gym-handOfJustice
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;else&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;git clone https://github.com/hex-plex/gym-handOfJustice
+cd gym-handOfJustice
+pip install -e .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;to-train&#34;&gt;To Train&lt;/h2&gt;
+&lt;p&gt;we used Actor Critic technique to update the a CNN
+examples are RL-train.py and RL-Test.py&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In RL-train we have built the Actor and the critic model using tensorflow&lt;/li&gt;
+&lt;li&gt;In RL-Test we have used stable-baselines SAC model with LnCnnpolicy policy&lt;/li&gt;
+&lt;li&gt;Dataset which we used consisted of 50,000 images that meant content for 50,000 episodes.
+to use the same it could be downloaded from the &lt;a href=&#34;https://drive.google.com/file/d/1YeJecxl8LDR_r3JAWfSbDP4X_klVQfrO/view&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;drive link&lt;/a&gt;&lt;br/&gt;
+&amp;mdash;-or&amp;mdash;-&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;wget --no-check-certificate -r &#39;https://docs.google.com/uc?export=download&amp;amp;id=1YeJecxl8LDR_r3JAWfSbDP4X_klVQfrO&#39; -O dataset.7z
+pacman -Sy p7zip-full  
+# Or any package manager you like
+7z e dataset.7z
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;training-metrics&#34;&gt;Training Metrics&lt;/h2&gt;
+&lt;p&gt;The training was completed( only on ~50% of the dataset ) over a span 36 days. Special thanks to Center for Computing and Information Services, IIT (BHU) varanasi to provide the computational power i.e., the Compute Cluster. It ran for about 20,960 episodes making upto 20 Million steps. the following are the log of all the metrics.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Actor Loss&lt;/th&gt;
+&lt;th&gt;Critic Loss&lt;/th&gt;
+&lt;th&gt;Reward&lt;/th&gt;
+&lt;th&gt;Cummulative Reward&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/log_images/actor_loss.jpg?raw=True&#34; alt=&#34;Actor_loss&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/log_images/critic_loss.jpg?raw=True&#34; alt=&#34;Critic_loss&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/log_images/reward.jpg?raw=True&#34; alt=&#34;Reward&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/log_images/eps_total_reward.jpg?raw=True&#34; alt=&#34;Cum_reward&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;These results may look decent but we should keep in mind that what i have tried to do is a end to end model for a very complex and really having a few layers after a mobile net is surely not sufficient for learning the forward kinematics of a robotic arm and being able to estimate the pose of the arm in the image.&lt;/p&gt;
+&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;
+&lt;p&gt;These are the best result after training over a limited amount of time&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;
+we have used clips from different versions of trained model and environment so there is a edit on these clips that in the gym-handOfJustice==0.0.6 a flip in the environment was added to make feel of the robotic hand more mirror like which can be spotted in the gif files&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/normal%26four_diff.gif?raw=true&#34; alt=&#34;Output-1&#34;&gt;
+&lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/3Pose.gif?raw=true&#34; alt=&#34;Output-2&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-end&#34;&gt;The End&lt;/h2&gt;
+&lt;p&gt;Thats all from our side&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt; &lt;img src=&#34;https://github.com/hex-plex/Hand-Imitation/blob/master/Thank_You.gif?raw=true&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;&lt;/img&gt; &lt;/p&gt;
+&lt;h2 id=&#34;the-team&#34;&gt;The Team&lt;/h2&gt;
+&lt;table&gt;
+ &lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/hex-plex&#34;&gt;
+    &lt;img src=&#34;https://avatars0.githubusercontent.com/u/56990337?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Somnath Sendhil Kumar &lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+    &lt;/td&gt;
+    &lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/numberbee7070&#34;&gt;
+    &lt;img src=&#34;https://avatars3.githubusercontent.com/u/63304283?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Yash Garg&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+	&lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/infini8-13&#34;&gt;
+    &lt;img src=&#34;https://avatars2.githubusercontent.com/u/54203063?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;L N Saaswath&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+	&lt;td align=&#34;center&#34;&gt;
+     &lt;a href=&#34;https://github.com/AtuL-KumaR-00&#34;&gt;
+    &lt;img src=&#34;https://avatars3.githubusercontent.com/u/64649440?s=460&amp;v=4&#34; width=&#34;100px;&#34; alt=&#34;&#34;/&gt;&lt;br /&gt;&lt;sub&gt;&lt;b&gt;Atul Kumar&lt;/b&gt;&lt;/sub&gt;&lt;/a&gt;&lt;br /&gt;
+	&lt;/td&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pong Reinforcement Learning</title>
+      <link>https://hex-plex.github.io/project/pong-reinforcementlearning/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/project/pong-reinforcementlearning/</guid>
+      <description>&lt;p&gt;I have tried baking a rudimentary RL environment and a agent recipe to learn more about the eco-system.&lt;br/&gt;
+I have made &lt;a href=&#34;https://github.com/hex-plex/Pong-ReinforcementLearning/blob/master/pong.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pong.py&lt;/a&gt; a environment which one can host either locally (localhost) or on  0.0.0.0 (LAN).Allowing to communicate to &lt;a href=&#34;https://github.com/hex-plex/Pong-ReinforcementLearning/blob/master/mainmodel.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mainmodel.py&lt;/a&gt; which has to be connected to the same host and the same port. &lt;br/&gt;
+I have used a simple socket connection to transfer data rather than a flask/django backend as they are based on it giving a advantage of speed of communication. &lt;br/&gt;
+both the scripts have debug mode which allows one to see in which state or stage they are in. &lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;output&#34;&gt;Output&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/hex-plex/Pong-ReinforcementLearning/raw/master/trained.gif&#34; alt=&#34;pong-agent&#34;&gt;&lt;/p&gt;
+&lt;hr/&gt;
+The one on the left is a RL agent trained for 3 days and the one on right is a hardcoded AI. This is noticible the they nearly have the same level of skills.
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;This requires only few basic libraries it only runs on python3, rather a small update can make it compatible with python2.
+The libraries&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pickle
+numpy
+cv2
+pygame
+# Below are mostly available preinstalled in any python distribution
+socket
+BytesIO # from io in python3 or directly in python2
+_thread # for python 3 and thread in python2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which are quite rudimentary and neccessary part of the code.&lt;/p&gt;
+&lt;h2 id=&#34;multithreading&#34;&gt;Multithreading&lt;/h2&gt;
+&lt;p&gt;Here I have use many threads to assure that no data is missed while any other calculation or process is running on the main thread as there might be some unwanted lag between inputs.Also another thread on mainmodel exists which take inputs  from the user for pausing and resuming its learning session&lt;/p&gt;
+&lt;h2 id=&#34;sockets&#34;&gt;Sockets&lt;/h2&gt;
+&lt;p&gt;I have used sockets to send data between scripts rather than using a instance of model and the pong env on the same script well that would work just fine (or better removing all the lag of communication) , but my goal was to make it more appealing and to make me learn more real life skills that is if I train a agent with raspberry pi ( or any other weaker mobile device for that matter ) as a part of the environment or in the environment a more viable option than running both simulation and the RL agent would be to do the computation and send in actions to it. This also gave me a good understanding about data compression and network security ,though here there is none used as it just accepts the first connection to the env. &lt;br/&gt;
+&lt;br/&gt;
+with the use of socket one could manually control the environment with keyboard and also have a RL agent learning (half - Duplex).&lt;/p&gt;
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+&lt;p&gt;To launch the env with mostly default values just running &lt;a href=&#34;https://github.com/hex-plex/Pong-ReinforcementLearning/blob/master/pong.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pong.py&lt;/a&gt; directly would start the server with default configs.
+Its always recommended to use its instance, apply your configuration you want it to run and start the server.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from pong import Pong
+
+env = Pong( levelodiff=1, ## This is the level of the inbuilt AI that plays against you.
+                          ## Set it to 4 and chill out (really try it!!) the scale is 1-3
+            debug=False,  ## If set to True it will print the stage the environment is in and info the data inputs and outputs
+            render=False, ## It would render the image that is sent to the model, This slows down the process so not a good idea to use it.
+            server=True,  ## This is to set server mode on , if set false the environment will be no different from ordinary pong game.
+            host=&amp;quot;&amp;quot;,      ## This is to specify where you want to host it, &amp;quot;&amp;quot; maps to local host &amp;quot;0.0.0.0&amp;quot; doesnt really map
+                          ## to your ip address yet
+            port=12345    ## This your port no. of the connection.
+          )               ## This is to just initiate the environment
+
+env.start()## This starts the env ie., hosts itself as per the given parameter and waits for a connection in async while continuing the game
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To launch the RL agent running the &lt;a href=&#34;https://github.com/hex-plex/Pong-ReinforcementLearning/blob/master/mainmodel.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mainmodel.py&lt;/a&gt; directly will run it in default config. &lt;br/&gt;
+To customize to your config import and create an instance and run the client. &lt;br/&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from mainmodel import PolicyGradient
+
+## This uses two hidden layer to out-put 2 probabilities
+agent = PolicyGradient( resume=False,  ## This is usefull to continue training from previos checkpoint.
+                        render=True,   ## This will render the image got through the socket,useful if model is in another computer
+                        host=None,     ## If the value is None it trys to find a localhost , else specific host is to be provided as a str
+                        port=12345,    ## default value is 12345 set is as required.
+                        hiddenUnits=250, ## This no of hiddenUnits in first layer depending on the dimension of input.
+                        batch_size=10, ## This is to set batch size for batch reiforcement learning rather than using single episode.
+                        learningRate=1e-3, ## This is to set learning rate
+                        gamma=0.99,    ## This is to set gamma or the discount
+                        decayRate=0.99 ## This is decayRate for RMSprop
+                      )                ## This creates an instance of PolicyGradient algorithm as a client_socket
+
+agent.start()         ## This starts the agent ie., connects to the server and communicates and learns from its experience.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Running them should launch the env and agent would start leaning. There is a propriety control in mainmodel.py which takes input in its terminal as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;p&amp;rsquo;    ==&amp;gt; Pausing/Resuming the training process&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;q&amp;rsquo;    ==&amp;gt; Quit the training process , But this makes a Checkpoint as interrupt.p&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;ping&amp;rsquo; ==&amp;gt; This pings the pong server 10 times and returns the average time it took to send and receive packets.
+else with a better score of agent, the model is saved continuosly as save.p.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fast-training&#34;&gt;Fast-training&lt;/h2&gt;
+&lt;p&gt;I have experimented the whole thing with networking sockets and asynchronous methods limiting the training process to human level speed for which I have uploaded the pong-fast-train.tar.gz&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tar -xvzf pong-fast-train.tar.gz
+cd pong-fast
+python mainmodel.py
+mv save.p ../save.p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So this should train the model and save it into the main directory this should load the trained model in the main algo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Light Gun</title>
+      <link>https://hex-plex.github.io/project/light-gun/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/project/light-gun/</guid>
+      <description>&lt;p&gt;Bored in the quarantine period, revisiting my old video games with light gun inspired an idea of light gun with a LCD display , I went on to build it mainly as a android package as it would be more accessable to anyone. Then ended up using a Raspberry Pi as a standalone device to enable it&amp;rsquo;s use accross many platforms and devices.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Explanation for the working can be found in &lt;a href=&#34;https://github.com/hex-plex/Light-Gun/blob/master/EXPLANATION.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EXPLANATION.md&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;glimpse&#34;&gt;Glimpse:&lt;/h2&gt;
+&lt;p&gt;This is the glimpse of the prototype made with Raspberry pi on a toy gun with all the number-munching done on the Raspberry and transmites messages to the local server through bluetooth. The previous method of running the proccessing and the actions is documented in &lt;strong&gt;Win-Py&lt;/strong&gt; directory.&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/Light-Gun/master/images/Complete_setup.jpg&#34; width=&#34;370&#34; align=&#34;right&#34; border=&#34;20&#34;&gt;&lt;/img&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p align=&#34;left&#34;&gt;This is a prototype of the light gun with a camera module attached onto a toy-gun and with a Raspberry pi 3 b+ (unneccessary I know) and a 7.4 V li-ion battery, regulated with a buck converter to which two switches are connected on the Raspi&#39;s interrupt pins.&lt;/p&gt;&lt;hr/&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/hex-plex/Light-Gun/master/images/display_setup.jpg&#34; width=&#34;370&#34; align=&#34;left&#34;&gt;&lt;/img&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+This is the display setup with 4 IR-LEDs attached to the corners of the display which makes it very easy for detection in a wide range of lighting conditions.&lt;hr/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;p&gt;And after Installation the main code using &lt;a href=&#34;https://github.com/hex-plex/Light-Gun/tree/master/Raspi-c&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspi&lt;/a&gt; version or &lt;a href=&#34;https://github.com/hex-plex/Light-Gun/tree/master/Win-py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Local&lt;/a&gt; version, continue using it according to the guide lines for the same which is present in their respective folders itself.&lt;/p&gt;
+&lt;p&gt;The Modules then should create a virtual mouse and start following the edge vector of the camera module.
+The following is a demonstration of it in action&amp;hellip;. (😅 coming up shortly, as I am fixing few deviation errors.)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1hIYBv8l2JCylOfQS9Cc5D5Hp50Ui55D-/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Demo Link&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;contribution&#34;&gt;Contribution&lt;/h2&gt;
+&lt;p&gt;Any kind of Contribution is always welcomed. The rules for any Contribution for now is Non existent as I am the only one working on it and I have not really structurized the project so well as mostly in its prototyping stage, So its not possible to do a lot(Anyways feel free to report any errors or bugs 😄 ), Any Idea for a better implementation is also welcomed.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is for getting R and t matrix  &lt;a href=&#34;https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This is for adjusting focal length (approximation) &lt;a href=&#34;https://www.learnopencv.com/approximate-focal-length-for-webcams-and-cell-phone-cameras/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This is for getting accurate intrensic matrix &lt;a href=&#34;https://www.learnopencv.com/camera-calibration-using-opencv/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[link]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cmake&lt;/li&gt;
+&lt;li&gt;Bluez&lt;/li&gt;
+&lt;li&gt;Raspberry pi interupts&lt;/li&gt;
+&lt;li&gt;Asynchronous coding&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://hex-plex.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://hex-plex.github.io/publication/example/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://hex-plex.github.io/publication/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
