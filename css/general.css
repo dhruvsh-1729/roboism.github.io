@@ -72,3 +72,45 @@ p.limit-width {
         justify-content: space-around;
     }
 }
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+
+.achievement__content {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem 1.8rem;
+    text-align: center;
+}
+
+.achievement__image {
+    max-width: 500px;
+}
+
+.achievement__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+}
+
+.achievement__description {
+    font-weight: 400;
+    padding: 1rem 0;
+    font-size: 1.05rem;
+}
+
+.achievement__description.limit-width {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.achievement__participants {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
