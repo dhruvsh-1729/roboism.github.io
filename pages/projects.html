@@ -1,0 +1,11 @@
+---
+permalink: /projects
+title: Projects | RoboISM
+---
+
+<div class="block">
+    <h1>Projects</h1>
+    {% for i in (1..5) %}
+        {% include project.html counter=i %}
+    {% endfor %}
+</div>
