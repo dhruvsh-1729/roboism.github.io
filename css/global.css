@@ -16,6 +16,7 @@ header {
     right: 0;
     padding: 1.2rem 1rem;
     display: flex;
+    align-items: center;
     background-color: white;
 }
 
@@ -31,6 +32,13 @@ header::after {
     bottom: 0;
     height: 1px;
     background-color: rgba(0,0,0,0.1);
+}
+
+.header__logo {
+    filter: invert(100%); 
+    display: block;
+    width: 80px; 
+    opacity: .8;
 }
 
 .menu {
