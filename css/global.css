@@ -138,6 +138,18 @@ footer {
     margin-top: 2rem;
 }
 
+.footer__logo {
+    margin-bottom: 2.6rem;
+}
+
+.footer__logo img {
+    display: block;
+    width: 60%;
+    min-width: 190px;
+    max-width: 260px;
+    margin: auto;
+}
+
 footer * {
     color: white;
 }
@@ -156,20 +168,20 @@ footer .menu__nav {
 
 footer .menu__nav-item a {
     font-family: 'Bebas Neue';
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     letter-spacing: .05rem;
     color: white;
 }
 
 .contact {
-    padding: 1rem 0;
+    padding: 2rem 0 1.5rem;
 }
 
 .contact__heading {
     font-family: 'Bebas Neue';
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     letter-spacing: .05rem;
-    margin-bottom: .2rem;
+    margin-bottom: .4rem;
 }
 
 .contact__contacts {
@@ -177,19 +189,24 @@ footer .menu__nav-item a {
     flex-flow: row wrap;
 }
 
+.contact__contacts * {
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
 .contact__socials {
-    padding: .5rem 0;
+    padding: .8rem 0;
     display: flex;
 }
 
 .contact__socials i {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     margin-right: .6rem;
 }
 
 .contact__email-contact {
-    margin-right: 1.2rem;
+    margin-bottom: .4rem;
 }
 
 .contact__email-contact:before, .contact__location-contact:before {
@@ -236,7 +253,7 @@ footer .menu__nav-item a {
     }
 
     .menu__nav-item {
-        margin: 0 .5rem;
+        margin: .05rem .5rem;
     }
 
     footer {
@@ -256,6 +273,19 @@ footer .menu__nav-item a {
 
     .footer__logo {
         width: 30%;
-        min-width: 300px;
+        min-width: 220px;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .footer__logo img {
+        display: block;
+        width: 250px;
+        margin: auto;
+    }
+
+    .contact__email-contact {
+        margin-right: 1.2rem;
+        margin-bottom: 0;
     }
 }
