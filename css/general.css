@@ -84,7 +84,7 @@ p.limit-width {
 .achievement__content,  .project__content {
     flex-grow: 1;
     flex-basis: 0;
-    padding: 1rem 1.8rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -148,6 +148,7 @@ p.limit-width {
 
     .achievement__content, .project__content {
         text-align: left;
+        padding: 1rem 1.8rem;
     }
 
     .project__content {
@@ -196,4 +197,11 @@ p.limit-width {
     font-size: 1.05rem;
     max-width: 800px;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .event__images * {
+        width: 100%;
+        max-width: 432px;
+    }
 }
