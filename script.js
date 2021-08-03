@@ -1,365 +1,61 @@
-let json =  [
-    {
-      "Timestamp": "7/4/2020 21:52:17",
-      "Year": "Pre-Final",
-      "branch": "Mineral Engg",
-      "github": "",
-      "image-link": "./img/members/ABHISHEK SHAH.jpg",
-      "linkedin": "https://www.linkedin.com/in/abhishek-shah-993019199",
-      "mail": "cpabhishekshah10@gmail.com",
-      "name": "ABHISHEK SHAH"
-    },
-    {
-      "Timestamp": "7/4/2020 21:52:17",
-      "Year": "Pre-Final",
-      "branch": "Electrical Engg",
-      "github": "https://github.com/01Abhinav",
-      "image-link": "./img/members/Abhinav Raj.jpg",
-      "linkedin": "https://www.linkedin.com/in/abhinav-raj-77252918a",
-      "mail": "abhinav.19je0020@ee.iitism.ac.in",
-      "name": "Abhinav Raj"
-    },
-    {
-      "Timestamp": "7/4/2020 21:52:17",
-      "Year": "Pre-Final",
-      "branch": "Electrical Engg ",
-      "github": "https://github.com/aditya-kr-garg",
-      "image-link": "./img/members/Aditya Kumar Garg.jpg",
-      "linkedin": "http://www.linkedin.com/in/aditya-kumar-garg-9a00b3192",
-      "mail": "aditya.garg.rewa9800@gmail.com",
-      "name": "Aditya Kumar Garg"
-    },
-    {
-      "Timestamp": "7/4/2020 21:52:17",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://github.com/iamadi1435",
-      "image-link": "./img/members/Aditya Ranjan.jpg",
-      "linkedin": "https://www.linkedin.com/in/aditya-ranjan-b41288199",
-      "mail": "adityaranjan798@gmail.com",
-      "name": "Aditya Ranjan"
-    },
-    {
-      "Timestamp": "7/4/2020 20:26:56",
-      "Year": "Pre-Final",
-      "branch": "MINING MACHINERY",
-      "github": "",
-      "image-link": "./img/members/ARNAB ADHIKARI.jpg",
-      "linkedin": "",
-      "mail": "arnabdhn2001.19je0178@mme.iitism.ac.in",
-      "name": "ARNAB ADHIKARI"
-    },
-    {
-      "Timestamp": "7/4/2020 21:39:30",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "",
-      "image-link": "./img/members/Akanksha Gupta.jpg",
-      "linkedin": "https://www.linkedin.com/in/akanksha-gupta-9b6b5a1a4",
-      "mail": "akgupta2391@gmail.com",
-      "name": "Akanksha Gupta"
-    },
-    {
-      "Timestamp": "7/4/2020 21:39:30",
-      "Year": "Pre-Final",
-      "branch": "Mining Engg",
-      "github": "https://github.com/akshay1920",
-      "image-link": "./img/members/Akshay Ku Saunta.jpg",
-      "linkedin": "https://www.linkedin.com/in/akshay-kumar-288184191",
-      "mail": "aksmasih003@gmail.com",
-      "name": "Akshay Kr Saunta"
-    },
-    {
-      "Timestamp": "7/4/2020 20:24:47",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://github.com/amanagrawal5510?tab=repositories",
-      "image-link": "./img/members/Aman Agarwal.jpg",
-      "linkedin": "https://www.linkedin.com/in/aman-agrawal-281852192",
-      "mail": "amanagrawal5510@gmail.com",
-      "name": "Aman Agrawal"
-    },
-    {
-      "Timestamp": "7/4/2020 20:24:47",
-      "Year": "Pre-Final",
-      "branch": "Mathematics and Computing",
-      "github": "https://github.com/AmanHarsh",
-      "image-link": "./img/members/Aman Harsh.jpg",
-      "linkedin": "https://www.linkedin.com/in/aman-harsh-051850192/",
-      "mail": "aman.harsh.1451@gmail.com",
-      "name": "Aman Harsh"
-    },
-    {
-      "Timestamp": "7/4/2020 20:24:47",
-      "Year": "Pre-Final",
-      "branch": "Mathematics and Computing",
-      "github": "https://github.com/amanism19",
-      "image-link": "./img/members/Aman Kumar.jpg",
-      "linkedin": "https://www.linkedin.com/in/aman-kumar-930854192",
-      "mail": "",
-      "name": "Aman Kumar"
-    },
-    {
-      "Timestamp": "7/4/2020 21:33:07",
-      "Year": "Pre-Final",
-      "branch": "Mechanical Engg",
-      "github": "",
-      "image-link": "./img/members/Animesh Kumar.jpg",
-      "linkedin": "",
-      "mail": "aniki.kumar09@gmail.com",
-      "name": "Animesh Kumar"
-    },
-    {
-      "Timestamp": "7/4/2020 21:33:07",
-      "Year": "Pre-Final",
-      "branch": "Computer Science & Engg",
-      "github": "https://github.com/AVJefferson",
-      "image-link": "./img/members/AV Jefferson.jpg",
-      "linkedin": "https://www.linkedin.com/in/jefferson-a-v-73972018a/",
-      "mail": "avjeferson@gmail.com",
-      "name": "AV Jefferson"
-    },
-    {
-      "Timestamp": "7/4/2020 21:33:07",
-      "Year": "Pre-Final",
-      "branch": "Mathematics and Computing",
-      "github": "https://github.com/AyushTripathi-sketch",
-      "image-link": "./img/members/Ayush Tripathi.jpg",
-      "linkedin": "https://www.linkedin.com/in/thinkayush",
-      "mail": "ayushtripathi766@gmail.com",
-      "name": "Ayush Tripathi"
-    },
-    {
-      "Timestamp": "7/4/2020 19:58:10",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "",
-      "image-link": "./img/members/Chepuri V S S Santosh Kumar.jpg",
-      "linkedin": "",
-      "mail": "santoshcvss17801@gmail.com",
-      "name": "CVSS Santosh Kumar"
-    },
-    {
-      "Timestamp": "7/5/2020 10:40:59",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://github.com/G-Pratap",
-      "image-link": "./img/members/Gaorav Pratap.jpg",
-      "linkedin": "https://www.linkedin.com/in/gaorav-pratap-20072k",
-      "mail": "gaoravpratap@gmail.com",
-      "name": "Gaorav Pratap"
-    },
-    {
-      "Timestamp": "7/4/2020 23:09:16",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://github.com/MiHarsh",
-      "image-link": "./img/members/Harsh Mishra.jpg",
-      "linkedin": "https://www.linkedin.com/in/harsh-mishra-5384b11a0/",
-      "mail": "harshm17172612@gmail.com",
-      "name": "Harsh Mishra"
-    },
-    {
-      "Timestamp": "7/5/2020 0:08:59",
-      "Year": "Pre-Final",
-      "branch": "Petroleum Engg",
-      "github": "https://github.com/jaiguptanick",
-      "image-link": "./img/members/Jai Gupta.jpg",
-      "linkedin": "https://www.linkedin.com/in/jaiguptanick",
-      "mail": "jaiguptanick@gmail.com",
-      "name": "Jai Gupta"
-    },
-    {
-      "Timestamp": "7/4/2020 23:07:45",
-      "Year": "Pre-Final",
-      "branch": "Computer Science & Engg",
-      "github": "https://github.com/JaySharma1048576",
-      "image-link": "./img/members/Jay Sharma.jpg",
-      "linkedin": "",
-      "mail": "jay.sharma25102001@gmail.com",
-      "name": "Jay Sharma"
-    },
-    {
-      "Timestamp": "7/5/2020 0:58:01",
-      "Year": "Pre-Final",
-      "branch": "Mechanical Engg",
-      "github": "",
-      "image-link": "./img/members/Karan Tyagi.jpg",
-      "linkedin": "",
-      "mail": "karantyagi9702@gmail.com",
-      "name": "Karan Tyagi"
-    },
-    {
-      "Timestamp": "7/4/2020 22:37:38",
-      "Year": "Pre-Final",
-      "branch": "Electronics & communication Engg",
-      "github": "https://github.com/Kartiksaini001",
-      "image-link": "./img/members/Kartik Saini.jpg",
-      "linkedin": "https://www.linkedin.com/in/kartik-saini-a1a240195",
-      "mail": "kartik100saini@gmail.com",
-      "name": "Kartik Saini"
-    },
-    {
-      "Timestamp": "7/4/2020 22:37:38",
-      "Year": "Pre-Final",
-      "branch": "Computer Science & Engg",
-      "github": "https://github.com/kartikekishore",
-      "image-link": "./img/members/Kartike Kishore.jpg",
-      "linkedin": "https://www.linkedin.com/in/kartike-kishore-2163861a4",
-      "mail": "kartikekishore@gmail.com",
-      "name": "Kartike Kishore"
-    },
-    {
-      "Timestamp": "7/4/2020 19:38:02",
-      "Year": "Pre-Final",
-      "branch": "Computer Science & Engg",
-      "github": "",
-      "image-link": "./img/members/Mayank Agarwal.jpg",
-      "linkedin": "https://www.linkedin.com/in/mayank-agarwal-415906195",
-      "mail": "magarwal1201@gmail.com",
-      "name": "Mayank Agarwal"
-    },
-    {
-      "Timestamp": "7/4/2020 20:18:10",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://www.github.com/nayan6119",
-      "image-link": "./img/members/Nayan Kumar.jpg",
-      "linkedin": "https://www.linkedin.com/in/nayan-kumar-2b898b192",
-      "mail": "nayan6119@gmail.com",
-      "name": "Nayan Kumar"
-    },
-    {
-      "Timestamp": "7/5/2020 9:49:39",
-      "Year": "Pre-Final",
-      "branch": "Mechanical Engg",
-      "github": "https://github.com/PGovindRao28/learning.git",
-      "image-link": "./img/members/P Govind Rao.jpg",
-      "linkedin": "https://www.linkedin.com/in/p-govind-rao-69a30a1a5",
-      "mail": "pgovindrao282@gmail.com",
-      "name": "P Govind Rao"
-    },
-    {
-      "Timestamp": "7/4/2020 19:45:42",
-      "Year": "Pre-Final",
-      "branch": "Engineering Physics ",
-      "github": "https://github.com/Pratham333/Roboism.git",
-      "image-link": "./img/members/Pratham Tahiliani.jpg",
-      "linkedin": "https://www.linkedin.com/in/pratham-tahiliani-a451561a4/",
-      "mail": "pratham_tahiliani99@hotmail.com",
-      "name": "Pratham Tahiliani"
-    },
-    {
-      "Timestamp": "7/4/2020 19:45:42",
-      "Year": "Pre-Final",
-      "branch": "Mathematics and Computing",
-      "github": "https://github.com/PriyanshSharma01",
-      "image-link": "./img/members/Priyansh Sharma.jpg",
-      "linkedin": "https://www.linkedin.com/in/priyansh-s-ba456a132",
-      "mail": "sharma22priyansh@gmail.com",
-      "name": "Priyansh Sharma"
-    },
-    {
-      "Timestamp": "7/4/2020 19:45:42",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://github.com/puppala-pranay",
-      "image-link": "./img/members/Puppala.jpg",
-      "linkedin": "https://www.linkedin.com/in/pranay-puppala-601a7b1b1/",
-      "mail": "pranaypuppala24@gmail.com",
-      "name": "Puppala Pranay"
-    },
-    {
-      "Timestamp": "7/4/2020 20:14:40",
-      "Year": "Pre-Final",
-      "branch": "Mineral Engg",
-      "github": "https://github.com/old-school-kid",
-      "image-link": "./img/members/Surya Prakash Mishra.jpg",
-      "linkedin": "https://www.linkedin.com/in/surya-prakash-mishra-b69359192",
-      "mail": "mishrasp393@gmail.com",
-      "name": "Surya p Mishra"
-    },
-    {
-      "Timestamp": "7/4/2020 22:17:38",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "https://github.com/swaraj-jain",
-      "image-link": "./img/members/me.png",
-      "linkedin": "https://www.linkedin.com/in/swaraj-jain-875b821a2/",
-      "mail": "Happy2000jain@gmail.com",
-      "name": "Swaraj Jain"
-    },
-    {
-      "Timestamp": "7/4/2020 22:17:38",
-      "Year": "Pre-Final",
-      "branch": "Computer Science & Engg",
-      "github": "",
-      "image-link": "./img/members/Thaduri Vamshi.jpg",
-      "linkedin": "https://www.linkedin.com/in/vamshi-thaduri-b8734a19b",
-      "mail": "tvamshi292001@gmail.com",
-      "name": "Thaduri Vamshi"
-    },
-    {
-      "Timestamp": "7/4/2020 22:17:38",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "",
-      "image-link": "./img/members/Mani Sandeep.jpg",
-      "linkedin": "",
-      "mail": "manisandeept7@gmail.com",
-      "name": "T Mani Sandeep"
-    },
-    {
-      "Timestamp": "7/4/2020 22:11:51",
-      "Year": "Pre-Final",
-      "branch": "Mechanical Engg",
-      "github": "https://github.com/vatsal-create/first_repo.git",
-      "image-link": "./img/members/Vatsal Ojha.jpg",
-      "linkedin": "https://www.linkedin.com/in/vatsal-ojha-6b67791b0",
-      "mail": "vatsalojha1@gmail.com",
-      "name": "Vatsal Ojha"
-    },
-    {
-      "Timestamp": "7/4/2020 22:11:51",
-      "Year": "Pre-Final",
-      "branch": "Mathematics and Computing",
-      "github": "https://github.com/geekyvedic",
-      "image-link": "./img/members/Vedic.M.jpg",
-      "linkedin": "https://www.linkedin.com/in/vedic-muddisetty-392126197/",
-      "mail": "vedic603@gmail.com",
-      "name": "Vedic.M"
-    },
-    {
-      "Timestamp": "7/4/2020 22:17:37",
-      "Year": "Pre-Final",
-      "branch": "Petroleum Engg",
-      "github": "",
-      "image-link": "./img/members/Yash Mittal.jpg",
-      "linkedin": "https://www.linkedin.com/in/yash-mittal-082038195",
-      "mail": "yashmittal1906@gmail.com",
-      "name": "Yash Mittal"
-    },
-    {
-      "Timestamp": "7/4/2020 22:17:37",
-      "Year": "Pre-Final",
-      "branch": "Electronics & Communication Engg",
-      "github": "",
-      "image-link": "./img/members/Yalamarthi Ravi Shankar.jpg",
-      "linkedin": "https://www.linkedin.com/in/yalamarthi-ravi-shankar-a14a251aa",
-      "mail": "ravishankaryalamarthi@gmail.com",
-      "name": "Y Ravi Shankar"
+// let json =  [];
+
+// let output = [];
+// output = json.map(object => ({
+//     name: object.name,
+//     position: object['Year'] + " Year",
+//     image: "/images" + object['image-link'].slice(5),
+//     linkedin: object.linkedin == '' ? undefined : object.linkedin,
+//     github: object.github == '' ? undefined : object.github,
+//     email: object.mail == '' ? undefined : object.mail,
+// }));
+
+// console.log(JSON.stringify(output));
+
+let csv = `Aaditya Pramod,Sophomore,aaditya2002pramod@gmail.com,https://www.linkedin.com/in/aaditya-pramod-499937210/,https://github.com/madpro25,/image/members/Aaditya Pramod.jpeg,jpeg
+Abdullah,Sophomore,101mdabdullah@gmail.com,linkedin.com/in/abdullah-43b7a0205,https://github.com/chef-of-mint,/image/members/Abdullah.jpg,jpg
+Aman kanojiya,Sophomore,A.kanojiya2003@gmail.com,https://www.linkedin.com/in/aman-kanojiya-782263188,https://github.com/AMANKANOJIYA,/image/members/Aman kanojiya.jpg,jpg
+Aman Pandey,Sophomore,20je0109@pe.iitism.ac.in,https://www.linkedin.com/in/aman-pandey-a5600a1b9/,https://github.com/Amanp16,/image/members/Aman Pandey.jpeg,jpeg
+Ambati Shasank Bhushan,Sophomore,shasank.ambati02@gmail.com,https://www.linkedin.com/in/ambati-shasank-8687b6210/,https://github.com/Shasank-Ambati,/image/members/Ambati Shasank Bhushan.jpeg,jpeg
+Aniket Kumar Roy,Sophomore,20je0128@me.iitism.ac.in,https://www.linkedin.com/in/aniket-kumar-roy-5a9180204/,https://github.com/Aniketkumarroy,/image/members/Aniket Kumar Roy.jpg,jpg
+Arjun P S,Sophomore,20je0181@ece.iitism.ac.in,https://www.linkedin.com/in/arjun-ps-837a38150/,https://github.com/Arjun-P-S,/image/members/Arjun P S.jpeg,jpeg
+Ayushman Tiwari,Sophomore,20je0241@me.iitism.ac.in,https://www.linkedin.com/in/ayushman-tiwari-9757871b9/,https://github.com/Ayuschmannov,/image/members/Ayushman Tiwari.jpg,jpg
+Dhruv Shah,Sophomore,20je0326@mech.iitism.ac.in,https://www.linkedin.com/in/dhruv-shah-b8b480167/,https://github.com/dhruvsh-1729?tab=repositories,/image/members/Dhruv Shah.jpg,jpg
+Harshit Sharma,Sophomore,20je0409@cse.iitism.ac.in,https://www.linkedin.com/in/harshit-s-025a91134/,https://github.com/Zhedac,/image/members/Harshit Sharma.jpeg,jpeg
+Herambh Dakshinamoorthy,Sophomore,herambhd03@gmail.com,www.linkedin.com/in/herambhd,https://github.com/herambh03,/image/members/Herambh Dakshinamoorthy.png,png
+Karan Soni,Sophomore,20je0960@ee.iitism.ac.in,https://www.linkedin.com/in/karansoni1072002/,https://github.com/karansoni1072002,/image/members/Karan Soni.jpeg,jpeg
+Kshma Singh,Sophomore,20je0496@ee.iitism.ac.in,inkedin.com/in/kshma-singh-a5a4331bb/,https://github.com/Kshma29,/image/members/Kshma Singh.jpeg,jpeg
+Muntaba Khan,Sophomore,20je0591@mech.iitism.ac.in,https://www.linkedin.com/in/muntaba-khan-a48308201,https://github.com/Muntabakhan,/image/members/Muntaba Khan.jpeg,jpeg
+Niyati Madaan,Sophomore,20je0645@mme.iitism.ac.in,https://www.linkedin.com/in/niyati-madaan-6b3319200,https://github.com/niyatimadaan,/image/members/Niyati Madaan.jpeg,jpeg
+Piyush Kumar Satpathy,Sophomore,piyushkumarsatpathy@gmail.com,https://www.linkedin.com/in/piyush-kumar-satpathy-3a93a01b8/,https://github.com/Piyush-ops962,/image/members/Piyush Kumar Satpathy.jpg,jpg
+Prachi Singh,Sophomore,20je0694@mech.iitism.ac.in,https://www.linkedin.com/in/prachi-singh-861868210,https://github.com/prachisingh25,/image/members/Prachi Singh.jpg,jpg
+Pranay Pandey,Sophomore,pranaypandeyofficial@gmail.com,https://www.linkedin.com/in/pranay-pandey-ba1a11210?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsAIKtKSmQcunjqO8TFUlQQ%3D%3D,https://github.com/Pranay-Pandey,/image/members/Pranay Pandey.jpeg,jpeg
+Prasanth Tolety,Sophomore,20je1031@ece.iitism.ac.in,https://www.linkedin.com/in/prasanth-tolety-611986205/,https://github.com/Prasanth-Tolety,/image/members/Prasanth Tolety.jpeg,jpeg
+Priyanshu Singh,Sophomore,priyanshusingh302@gmail.com,https://www.linkedin.com/in/priyanshu-singh-b9a396191/,https://github.com/priyanshusingh302,/image/members/Priyanshu Singh.jpg,jpg
+Saksham Dwivedi,Sophomore,20je0836@pe.iitism.ac.in,https://www.linkedin.com/in/saksham-dwivedi/,https://github.com/augsaksham,/image/members/Saksham Dwivedi.jfif,jfif
+Sakshi Dwivedi,Sophomore,sakshidwivedi13@gmail.com,https://www.linkedin.com/in/sakshi-dwivedi-36bbb11b9/,https://github.com/sakshi1313,/image/members/Sakshi Dwivedi.jpeg,jpeg
+Satyavrat Mishra,Sophomore,20je0874@mech.iitism.ac.in,https://www.linkedin.com/in/satyavrat-mishra-391828218,https://github.com/Satyavrat14,/image/members/Satyavrat Mishra.jpg,jpg
+Shashvat Jain,Sophomore,20je0897@ee.iitism.ac.in,https://www.linkedin.com/in/shashvat-jain-847089210/,https://github.com/Shashvat-Jain,/image/members/Shashvat Jain.jpeg,jpeg
+Shashwat Srivastava,Sophomore,akshatsrivastava112@gmail.com,http://www.linkedin.com/in/shashwat-srivastava-44a937208,https://github.com/Shashwat112,/image/members/Shashwat Srivastava.png,png
+Shobhit Kumar,Sophomore,shobhitkumar43@gmail.com,https://www.linkedin.com/in/shobhitkumar374/,https://github.com/Shobhit374,/image/members/Shobhit Kumar.jpg,jpg
+Shreyansh Jain,Sophomore,20je0924@mech.iitism.ac.in,https://www.linkedin.com/in/shreyansh-jain-34b2271b2/,https://github.com/sudoshreyansh/,/image/members/Shreyansh Jain.jpg,jpg
+Soumya Shree,Sophomore,20je0967@cve.iitism.ac.in,https://www.linkedin.com/in/soumya-shree-72b548205/,https://github.com/soumyashree04,/image/members/Soumya Shree.jpg,jpg
+Syed Areeb Ahmad,Sophomore,areebsyed237@gmail.com,https://www.linkedin.com/in/syed-areeb-b15b22176,https://github.com/areebsyed237,/image/members/Syed Areeb Ahmad.jpg,jpg
+Tanishq Chaudhary,Sophomore,20je1015@ece.iitism.ac.in,https://www.linkedin.com/in/tanishq-chaudhary-1018241b1/,https://github.com/Tanishq30052002,/image/members/Tanishq Chaudhary.jpg,jpg
+Tanishq Mittal,Sophomore,20je1017@ee.iitism.ac.in,https://www.linkedin.com/in/tanishq-mittal-b5b60b201/,https://github.com/ChochuBaba,/image/members/Tanishq Mittal.jpeg,jpeg
+Udbhav Sharma,Sophomore,20je1034@ece.iitism.ac.in,https://www.linkedin.com/in/udbhav-sharma-9b10b5201/,https://github.com/udbhavsharma1112,/image/members/Udbhav Sharma.jpg,jpg
+Yash Sati,Sophomore,st.yashsati21@gmail.com,https://www.linkedin.com/in/yash-sati-9827a4210/,https://github.com/YashSati,/image/members/Yash Sati.jpeg,jpeg`;
+
+let output = csv.split('\n').map(row => {
+    row = row.split(',');
+    return {
+        name: row[0],
+        position: row[1],
+        image: row[5],
+        linkedin: row[3],
+        github: row[4],
+        email: row[2]
     }
-  ];
-
-
-let output = [];
-output = json.map(object => ({
-    name: object.name,
-    position: object['Year'] + " Year",
-    image: "/images" + object['image-link'].slice(5),
-    linkedin: object.linkedin == '' ? undefined : object.linkedin,
-    github: object.github == '' ? undefined : object.github,
-    email: object.mail == '' ? undefined : object.mail,
-}));
+});
 
 console.log(JSON.stringify(output));
