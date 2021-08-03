@@ -18,9 +18,9 @@ home: true
             <div class="content__sub-heading">
                 IIT (ISM) Dhanbad
             </div>
-            <button class="button--primary">
+            <a href="#projects" class="button button--primary">
                 Our Projects
-            </button>
+            </a>
         </div>
     </div>
     <div class="block block--2-column">
@@ -44,11 +44,11 @@ home: true
             <div class="content__content">
             </div>
         </div>
-        <button>
+        <a href="/achievements" class="button button--secondary">
             View All
-        </button>
+        </a>
     </div>
-    <div class="block">
+    <div class="block" id="projects">
         <div class="content content--with-bottom">
             <div class="content__heading">
                 Project Gallery
@@ -60,8 +60,15 @@ home: true
                 <img src="images/5-removebg-preview.png" alt="">
             </div>
         </div>
-        <button>
+        <a href="/projects" class="button button--secondary">
             View All
-        </button>
+        </a>
+    </div>
+    <div class="block">
+        <div class="grid">
+            {% for coordinator in site.data.coordinators %}
+                {% include team-member.html member=coordinator %}
+            {% endfor %}
+        </div>
     </div>
 </main>

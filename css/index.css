@@ -64,7 +64,7 @@
     font-weight: 500;
 }
 
-button {
+a.button {
     background-color: #3f3f3f;
     color: white;
     font-family: 'Bebas Neue';
@@ -72,19 +72,24 @@ button {
     padding: .6rem 1.2rem;
     border: 0;
     letter-spacing: .05rem;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
 }
 
-button.button--primary {
+a.button.button--primary {
     background: transparent;
     position: relative;
+    font-size: 1.6rem;
 }
 
 .block--hero .button--primary {
     margin: 2.2rem auto 0;
     display: block;
+    width: fit-content;
 }
 
-button.button--primary:after, button.button--primary:before {
+a.button.button--primary:after, a.button.button--primary:before {
     content: "";
     position: absolute;
     background-color: #E38202;
@@ -94,18 +99,18 @@ button.button--primary:after, button.button--primary:before {
     transition: top .2s, left .2s;
 }
 
-button.button--primary::after {
+a.button.button--primary::after {
     top: .2rem;
     left: .2rem;
 }
 
-button.button--primary::before {
+a.button.button--primary::before {
     top: -.2rem;
     left: -.2rem;
 }
 
-button.button--primary:hover::after,
-button.button--primary:hover::before {
+a.button.button--primary:hover::after,
+a.button.button--primary:hover::before {
     top:0;
     left:0;
 }
@@ -133,6 +138,12 @@ button.button--primary:hover::before {
 
     .block {
         margin-bottom: 1.6rem;
+    }
+
+    .block:last-child {
+        margin-bottom: 0;
+        margin-top: 3.2rem;
+        padding-bottom: 0;
     }
 
     .block.block--hero {
@@ -196,8 +207,8 @@ button.button--primary:hover::before {
         margin: 1.8rem 0 0 .5rem;
     }
 
-    .block button {
-        font-size: 1.6rem;
+    .block a.button {
+        font-size: 1.5rem;
     }
 
     .content__content--gallery {
