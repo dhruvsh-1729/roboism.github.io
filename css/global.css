@@ -334,6 +334,7 @@ footer .menu__nav-item a {
     font-weight: 600;
     color: #3f3f3f;
     padding: .6rem 0;
+    text-transform: capitalize;
 }
 
 .team-member__position {

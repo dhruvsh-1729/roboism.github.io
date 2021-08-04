@@ -16,13 +16,13 @@ title: About | RoboISM
     </div>
     <h1>Our Team</h1>
     <div class="grid">
-        {% for member in site.data.final %}
+        {% for member in site.data.members.final %}
             {% include team-member.html member=member %}
         {% endfor %}
-        {% for member in site.data.prefinal %}
+        {% for member in site.data.members.prefinal %}
             {% include team-member.html member=member %}
         {% endfor %}
-        {% for member in site.data.sophomores %}
+        {% for member in site.data.members.sophomores %}
             {% include team-member.html member=member %}
         {% endfor %}
     </div>

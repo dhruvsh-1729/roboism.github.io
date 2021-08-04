@@ -9,8 +9,8 @@ title: Alumni | RoboISM
         Robotics & AI Club is a student-run organization/club of Indian Institute of Technology (ISM) Dhanbad. The Robotics Club is a community of students who derive pleasure in creating mechanical peers that may even be potent to work without human intervention. Each member of this family is provided mechanical, electronic, monetary and informatory aid besides the
     </p>
     <div class="grid">
-        {% for i in (1..10) %}
-            {% include team-member.html %}
+        {% for alumnus in site.data.alumni %}
+            {% include team-member.html member=alumnus %}
         {% endfor %}
     </div>
 </div>
