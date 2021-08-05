@@ -5,7 +5,7 @@ title: Achievements | RoboISM
 
 <div class="block">
     <h1>Achievements</h1>
-    {% for i in (1..5) %}
-        {% include achievement.html %}
+    {% for achievement in site.data.achievements %}
+        {% include achievement.html achievement=achievement %}
     {% endfor %}
 </div>

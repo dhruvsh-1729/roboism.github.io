@@ -5,7 +5,10 @@ title: Projects | RoboISM
 
 <div class="block">
     <h1>Events</h1>
-    {% for i in (1..5) %}
-        {% include event.html %}
+    <p class="limit-width">
+        Often nature plays the muse to the solutions for the predicaments the club members try to solve through AI. But other times it’s the beautiful minds around us. Apart from finding a solution to a problem the club welcomes teams to display their AI prowess. For a better tomorrow, the club spearheads the AI creed and tries to make people around cognizant of the capabilities and responsibilities of AI and Robotics.
+    </p>
+    {% for event in site.data.events %}
+        {% include event.html event=event %}
     {% endfor %}
 </div>

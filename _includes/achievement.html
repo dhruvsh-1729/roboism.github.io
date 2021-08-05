@@ -1,14 +1,14 @@
 <div class="achievement">
-    <img src="https://swaraj-jain.github.io/ROBOISM-Webpage/img/KPMG.jpg" class="achievement__image">
+    <div class="achievement__image" style="background-image: url('{{ include.achievement.image }}')"></div>
     <div class="achievement__content">
         <div class="achievement__title">
-            KPMG Ideation Challenge 2020 Winners
+            {{ include.achievement.title }}
         </div>
         <div class="achievement__description">
-            The Global KPMG Ideation Challenge 2020 saw participants from 18 countries, pitching their ideas regarding newer ways of work using Data Analytics and Artificial Intelligence. Our team from RoboISM emerged victorious as the Global Challenge with their disruptive innovation in the mining industry to enable safer and more sustainable extraction.
+            {{ include.achievement.description }}
         </div>
         <div class="achievement__participants">
-            Srajan Gupta, Parth Hetamsaria, Varnika Kumari, Sanchit Kumar
+            {{ include.achievement.participants }}
         </div>
     </div>
 </div>

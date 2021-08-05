@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Flying machine",
+        "description": "The project was aimed to develop an autonomous flying drone (specifically quadcopter). The drone was equipped with DJI’s Naza M V2 flight controller, connected to four ESC. The ESC takes the signal from the flight controller and power from the battery and makes the brushless motor spin. The flight controller uses the response of the barometer and the GPS module to detect hight and distance. The barometer was used to set the height of the drone at a fixed distance from the land. The GPS module provides waypoints to the drone to navigate and traverse from one location to another using GPS coordinates. The drone was able to achieve GPS lock and altitude lock during the flight.        ",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/projects/2.png"
+    },
+    {
+        "name": "Terrace Farming Robot",
+        "description": "Terrace Farming Robot is an autonomous robot which can assist farmers of hilly areas in terrace farming. It was built essentially as an Autonomous Stair Climbing Robot which could ascend and descend stair of the height of about 40cm high using a Chain Slider Mechanism. It can autonomously also perform ploughing, seeding and harvesting in the steps of terrace farming.",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/projects/5.png",
+        "github": "https://github.com/kjyothiswaroop/Terrace-Farming-Robot-InterIITTechMeet8.0"
+    },
+    {
+        "name": "MULTIm-8",
+        "description": "MULTIm-8 is an automated system for batch programming of up to 16 AT-Tiny85 ICs. It can be operated from any Linux based computer, via USB. It is driven by a python script and an Arduino Uno board. The Uno is used in the ISP configuration, for programming the AT-Tiny85s. MULTIm-8 is capable of hard-coding each IC in a batch, with a unique ID from a user-specified range. This is particularly useful in production of multiple devices. The Arduino ISP programs the ICs through SPI.",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/projects/3.png",
+        "github": "https://github.com/matiyau/MULTIm-8"
+    }
+]

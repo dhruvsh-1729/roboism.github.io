@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Tech Monks Startup",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/techmonk.png",
+        "description": "Tech Monks Engineering Solutions LLP is a startup founded by the alumni of RoboISM. Their product 'Digital Punch Card' saves 20-25 days of time and work per design of saree, which was earlier required to build manual punch cards for sarees. Digital Punch Card is an electronic device which uses the saree's design in bitmap file and is more lasting than the manual one. The device future gives direction to the power loom machine for the weaving.",
+        "participants": "Nitya Nand, Shanmukh Krishna Srikakolapu"
+    },
+    {
+        "title": "KPMG Ideation Challenge 2020 Winners",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/KPMG.jpg",
+        "description": "The Global KPMG Ideation Challenge 2020 saw participants from 18 countries, pitching their ideas regarding newer ways of work using Data Analytics and Artificial Intelligence. Our team from RoboISM emerged victorious as the Global Challenge with their disruptive innovation in the mining industry to enable safer and more sustainable extraction.",
+        "participants": "Srajan Gupta, Parth Hetamsaria, Varnika Kumari, Sanchit Kumar"
+    }
+]

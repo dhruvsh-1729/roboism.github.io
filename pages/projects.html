@@ -5,7 +5,9 @@ title: Projects | RoboISM
 
 <div class="block">
     <h1>Projects</h1>
-    {% for i in (1..5) %}
-        {% include project.html counter=i %}
+    {% assign i = 1 %}
+    {% for project in site.data.projects %}
+        {% include project.html counter=i project=project %}
+        {% assign i = i | plus: 1 %}
     {% endfor %}
 </div>
