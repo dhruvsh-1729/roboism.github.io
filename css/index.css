@@ -168,7 +168,7 @@ a.button.button--primary:hover::before {
     }
 
     .block--hero .block__image img {
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
