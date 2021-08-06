@@ -228,3 +228,15 @@ a.button.button--primary:hover::before {
         flex-grow: 1;
     }
 }
+
+.achievement-brief {
+    margin-bottom: .4em;
+    padding: 1em;
+    background: #e8e8e8;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.content__content#achievements {
+    padding: .4rem 0 .8rem;
+}

@@ -25,7 +25,7 @@ home: true
     </div>
     <div class="block block--2-column">
         <div class="block__image">
-            <img src="images/rendered1.png" alt="">
+            <img src="images/terracebot.jpeg" alt="">
         </div>
         <div class="content">
             <div class="content__heading">
@@ -41,7 +41,12 @@ home: true
             <div class="content__heading">
                 Achievements
             </div>
-            <div class="content__content">
+            <div class="content__content" id="achievements">
+                {% for achievement in site.data.achievements limit:3 %}
+                    <div class="achievement-brief">
+                        {{ achievement.brief }}
+                    </div>
+                {% endfor %}
             </div>
         </div>
         <a href="/achievements" class="button button--secondary">
