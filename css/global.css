@@ -526,3 +526,13 @@ footer .menu__nav-item a {
     flex-shrink: 1;
     margin: .2rem;
 }
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row img {
+        width: 100%;
+    }
+}
