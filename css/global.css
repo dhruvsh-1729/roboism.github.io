@@ -36,7 +36,6 @@ header::after {
 }
 
 .header__logo {
-    filter: invert(100%); 
     display: block;
     width: 80px; 
     opacity: .8;
