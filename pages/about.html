@@ -13,12 +13,18 @@ title: About | RoboISM
         {% for coordinator in site.data.coordinators %}
             {% include team-member.html member=coordinator %}
         {% endfor %}
+    </div>
+    <div class="grid">
         {% for member in site.data.members.final %}
             {% include team-member.html member=member %}
         {% endfor %}
+    </div>
+    <div class="grid">
         {% for member in site.data.members.prefinal %}
             {% include team-member.html member=member %}
         {% endfor %}
+    </div>
+    <div class="grid">
         {% for member in site.data.members.sophomores %}
             {% include team-member.html member=member %}
         {% endfor %}

@@ -1,5 +1,5 @@
 <div class="team-member">
-    <div class="team-member__image" style="background-image: url('{{ include.member.image }}');"></div>
+    <div class="team-member__image" style="background-image: url('{{ include.member.image }}'); {% if include.member.backgroundPosition %} background-position: {{ include.member.backgroundPosition }} {% endif %}"></div>
     <div class="team-member__name">
         {{ include.member.name }}
     </div>

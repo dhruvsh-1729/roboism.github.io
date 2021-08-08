@@ -12,7 +12,8 @@
       "position": "Final Year",
       "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/members/Akshat jain.jpg",
       "linkedin": "https://www.linkedin.com/in/akshat-jain-014291174",
-      "email": "jainakshatjain99@gmail.com"
+      "email": "jainakshatjain99@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "Ayush Kumar",
@@ -56,7 +57,8 @@
       "position": "Final Year",
       "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/members/INAMPUDI SAI AMITH.jpg",
       "linkedin": "https://www.linkedin.com/in/sai-amith-inampudi-4701a7175",
-      "email": "saikrishna09.amith01@gmail.com"
+      "email": "saikrishna09.amith01@gmail.com",
+      "backgroundPosition": "center 10%"
     },
     {
       "name": "Intipalli Vinay",
@@ -72,7 +74,8 @@
       "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/members/J Samrat Varun .jpg",
       "linkedin": "https://www.linkedin.com/mwlite/in/samrat-varun-a0320a16b",
       "github": "https://github.com/samrat-varun",
-      "email": "samratvarun@gmail.com"
+      "email": "samratvarun@gmail.com",
+      "backgroundPosition": "center 10%"
     },
     {
       "name": "Jayant Anand ",
@@ -101,7 +104,8 @@
       "position": "Final Year",
       "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/members/Kaushik Shukla.jpg",
       "linkedin": "https://www.linkedin.com/in/kaushik-shukla-aa71a9175",
-      "email": "mail.kaushik313@gmail.com"
+      "email": "mail.kaushik313@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "K Jyothi Swaroop",
@@ -170,7 +174,8 @@
       "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/members/Suddunuri Sandeep.jpg",
       "linkedin": "https://www.linkedin.com/in/sandeep-suddunuri-b9a4a7a3",
       "github": "https://github.com/codesloth710",
-      "email": "sunnysandeep345@gmail.com"
+      "email": "sunnysandeep345@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "Yashwant Sandey",

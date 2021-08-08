@@ -5,7 +5,8 @@
       "image": "/images/members/sophomores/Aaditya Pramod.jpeg",
       "linkedin": "https://www.linkedin.com/in/aaditya-pramod-499937210/",
       "github": "https://github.com/madpro25",
-      "email": "aaditya2002pramod@gmail.com"
+      "email": "aaditya2002pramod@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "Abdullah",
@@ -16,9 +17,9 @@
       "email": "101mdabdullah@gmail.com"
     },
     {
-      "name": "Aman kanojiya",
+      "name": "Aman Kanojiya",
       "position": "Sophomore",
-      "image": "/images/members/sophomores/Aman kanojiya.jpg",
+      "image": "/images/members/sophomores/Aman Kanojiya.jpg",
       "linkedin": "https://www.linkedin.com/in/aman-kanojiya-782263188",
       "github": "https://github.com/AMANKANOJIYA",
       "email": "A.kanojiya2003@gmail.com"
@@ -29,7 +30,8 @@
       "image": "/images/members/sophomores/Aman Pandey.jpeg",
       "linkedin": "https://www.linkedin.com/in/aman-pandey-a5600a1b9/",
       "github": "https://github.com/Amanp16",
-      "email": "20je0109@pe.iitism.ac.in"
+      "email": "20je0109@pe.iitism.ac.in",
+      "backgroundPosition": "top"
     },
     {
       "name": "Ambati Shasank Bhushan",
@@ -37,7 +39,8 @@
       "image": "/images/members/sophomores/Ambati Shasank Bhushan.jpeg",
       "linkedin": "https://www.linkedin.com/in/ambati-shasank-8687b6210/",
       "github": "https://github.com/Shasank-Ambati",
-      "email": "shasank.ambati02@gmail.com"
+      "email": "shasank.ambati02@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "Aniket Kumar Roy",
@@ -53,7 +56,8 @@
       "image": "/images/members/sophomores/Arjun P S.jpeg",
       "linkedin": "https://www.linkedin.com/in/arjun-ps-837a38150/",
       "github": "https://github.com/Arjun-P-S",
-      "email": "20je0181@ece.iitism.ac.in"
+      "email": "20je0181@ece.iitism.ac.in",
+      "backgroundPosition": "top"
     },
     {
       "name": "Ayushman Tiwari",
@@ -77,7 +81,8 @@
       "image": "/images/members/sophomores/Harshit Sharma.jpeg",
       "linkedin": "https://www.linkedin.com/in/harshit-s-025a91134/",
       "github": "https://github.com/Zhedac",
-      "email": "20je0409@cse.iitism.ac.in"
+      "email": "20je0409@cse.iitism.ac.in",
+      "backgroundPosition": "top"
     },
     {
       "name": "Herambh Dakshinamoorthy",
@@ -85,7 +90,8 @@
       "image": "/images/members/sophomores/Herambh Dakshinamoorthy.png",
       "linkedin": "www.linkedin.com/in/herambhd",
       "github": "https://github.com/herambh03",
-      "email": "herambhd03@gmail.com"
+      "email": "herambhd03@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "Karan Soni",
@@ -109,7 +115,8 @@
       "image": "/images/members/sophomores/Muntaba Khan.jpeg",
       "linkedin": "https://www.linkedin.com/in/muntaba-khan-a48308201",
       "github": "https://github.com/Muntabakhan",
-      "email": "20je0591@mech.iitism.ac.in"
+      "email": "20je0591@mech.iitism.ac.in",
+      "backgroundPosition": "top"
     },
     {
       "name": "Niyati Madaan",
@@ -125,7 +132,8 @@
       "image": "/images/members/sophomores/Piyush Kumar Satpathy.jpg",
       "linkedin": "https://www.linkedin.com/in/piyush-kumar-satpathy-3a93a01b8/",
       "github": "https://github.com/Piyush-ops962",
-      "email": "piyushkumarsatpathy@gmail.com"
+      "email": "piyushkumarsatpathy@gmail.com",
+      "backgroundPosition": "center 15%"
     },
     {
       "name": "Prachi Singh",
@@ -141,7 +149,8 @@
       "image": "/images/members/sophomores/Pranay Pandey.jpeg",
       "linkedin": "https://www.linkedin.com/in/pranay-pandey-ba1a11210?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsAIKtKSmQcunjqO8TFUlQQ%3D%3D",
       "github": "https://github.com/Pranay-Pandey",
-      "email": "pranaypandeyofficial@gmail.com"
+      "email": "pranaypandeyofficial@gmail.com",
+      "backgroundPosition": "top"
     },
     {
       "name": "Prasanth Tolety",
@@ -157,7 +166,8 @@
       "image": "/images/members/sophomores/Priyanshu Singh.jpg",
       "linkedin": "https://www.linkedin.com/in/priyanshu-singh-b9a396191/",
       "github": "https://github.com/priyanshusingh302",
-      "email": "priyanshusingh302@gmail.com"
+      "email": "priyanshusingh302@gmail.com",
+      "backgroundPosition": "center top"
     },
     {
       "name": "Saksham Dwivedi",
@@ -165,7 +175,8 @@
       "image": "/images/members/sophomores/Saksham Dwivedi.jfif",
       "linkedin": "https://www.linkedin.com/in/saksham-dwivedi/",
       "github": "https://github.com/augsaksham",
-      "email": "20je0836@pe.iitism.ac.in"
+      "email": "20je0836@pe.iitism.ac.in",
+      "backgroundPosition": "center top"
     },
     {
       "name": "Sakshi Dwivedi",
@@ -181,7 +192,8 @@
       "image": "/images/members/sophomores/Satyavrat Mishra.jpg",
       "linkedin": "https://www.linkedin.com/in/satyavrat-mishra-391828218",
       "github": "https://github.com/Satyavrat14",
-      "email": "20je0874@mech.iitism.ac.in"
+      "email": "20je0874@mech.iitism.ac.in",
+      "backgroundPosition": "center top"
     },
     {
       "name": "Shashvat Jain",
