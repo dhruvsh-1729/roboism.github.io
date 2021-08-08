@@ -11,6 +11,48 @@
         "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/KPMG.jpg",
         "description": "The Global KPMG Ideation Challenge 2020 saw participants from 18 countries, pitching their ideas regarding newer ways of work using Data Analytics and Artificial Intelligence. Our team from RoboISM emerged victorious as the Global Challenge with their disruptive innovation in the mining industry to enable safer and more sustainable extraction.",
         "participants": "Srajan Gupta, Parth Hetamsaria, Varnika Kumari, Sanchit Kumar",
-        "brief": "KPMG Ideation Challenge 2020 Winners"
+        "brief": "KPMG Ideation Challenge 2020 Winners - \"Disruptive Innovation\" in the Mining Industry"
+    },
+    {
+        "title": "3rd Position in Hack Fest 2K19",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/p5.png",
+        "description": "Our members developed a Self Balancing Bike. The bike could balance itself on it's wheels without the need for any external interaction. We emerged 3rd in Hackfest 2K19 for this project.",
+        "participants": "Akhil Vaidya, Mayank Gupta, Sarthak Panda, Prerak Rawat, Subham",
+        "brief": "3rd Position in Hackfest 2K18 - Self Balancing Bike"
+    },
+    {
+        "title": "Inter IIT 2K18 (Bionic Leg) Winners",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/p1.png",
+        "description": "Our club members represented IIT (ISM) Dhanbad in the Inter IIT 2K18 Tech Meet for developing a Bionic Leg. Bionic legs are artificial legs for disabled, that work by using signals from an individual's muscles to seamlessly move like the natural leg. Our team was declared the winners in the competition.",
+        "participants": "Pragdheesh Rs, Eric John, Prince Kunal, Anshul Gupta",
+        "brief": "Inter IIT 2K18 Tech Meet Winners For Bionic Leg"
+    },
+    {
+        "title": "Inter IIT 2K18 (Ashoka's Tech For Change Challange) Winners",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/kps.png",
+        "description": "Our club members represented IIT (ISM) Dhanbad in the Inter IIT 2K18 Tech Meet for Ashoka's Tech For Change Challange, and emerged victorious in the esteemed competition.",
+        "participants": "Prakhar Kumar, Kapil Verma, Suyog jadhav",
+        "brief": "Winners of Ashoka's Tech For Change Challange - Inter IIT Tech meet 2K18"
+    },
+    {
+        "title": "3rd Position in Hackfest 2K18",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/p2.png",
+        "description": "Our club members participated in the Hackfest 2K18 competition and developed IRis. It is a cheaper alternative to the current Audience Response Systems, by relying on IR instead of RF, WiFi or Bluetooth. We were given the 3rd prize for the development.",
+        "participants": "Asutosh Rout, Neelesh Kumar Yadav, Nishad Mandlik, Sai Ruthvik, Sai Sumanth Kalluri",
+        "brief": "3rd Position in Hackfest 2K18"
+    },
+    {
+        "title": "3rd Position in Hackfest 2K17",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/p3.png",
+        "description": "In Hackfest 2K17, we developed an autonomous vehicle, named ParaShoot which could detect human presence around military borders and eliminate any threats if necessary. Defense Research and Development Organization (DRDO) had developed an autonomous multi-terrain vehicle called Daksh, ich is capable of defusing bombs and neutralizing chemical weapons. ParaShoot was developed along the same lines. We emerged 3rd in the competition for ParaShoot.",
+        "participants": "Asutosh Rout, Neelesh Kumar Yadav, Nishad Mandlik",
+        "brief": "3rd Position in Hackfest 2K17"
+    },
+    {
+        "title": "Top 10 in PanIIT Hackathon, Winner of SIH Internal Hackaton",
+        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/p4.png",
+        "description": "We developed an Epileptic Seizure Detection Device, which could ease the life of caretakers of patients suffering from Epilepsy. The device could be worn by the patient on the wrist, and would monitor the patient for seizures. In case of any detections, it would execute it's emergency procedures. For this, we emerged winners of SIH Internal Hackathon and were in the Top 10 in PanIIT Hackathon.",
+        "participants": "Jyothi Swaroop K, Parth Khanna, Suddunuri Sandeep, Sreyans Bohara",
+        "brief": "Top 10 in PanIIT Hackathon, Winner of SIH Internal Hackaton"
     }
 ]
