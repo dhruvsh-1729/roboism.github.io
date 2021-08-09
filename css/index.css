@@ -232,7 +232,7 @@ a.button.button--primary:hover::before {
 .achievement-brief {
     margin-bottom: .4em;
     padding: 1em;
-    background: #e8e8e8;
+    background: #f3f4f7;
     font-weight: 400;
     font-size: 1.25rem;
 }
