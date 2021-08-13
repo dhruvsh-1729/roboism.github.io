@@ -1,5 +1,26 @@
 [
     {
+        "title": "Inter IIT 2K21 - Agrobot Design Innovation Challenge Winners",
+        "image": "/images/agrobot.jpg",
+        "description": "Our club members were the Gold Medalists in the Inter IIT 2021 Tech Meet - Agrobot Design Innovation Challenge. The challenge required innovative thinking for reducing the strenuous task of mountain agriculture in India due to the unevenness of land and arduous managing process through the use of bots. The framework of bots used on land for agriculture needs further applied advancement and fostered operations of its components. The Agrobot developed by our victorious team of students is a colossal step towards the future of Mountain Agriculture.",
+        "participants": "Aditya Kumar Garg, P Govind Rao, Akshay Kumar Saunta, Inampudi Sai Amith, Satyam Modi",
+        "brief": "Inter IIT 2K21 Tech Meet - Agrobot Design Innovation Challenge Winners"
+    },
+    {
+        "title": "Team Vizhelp - 3rd Runner up in the Rakuten India Rakathon 2021",
+        "image": "/images/Rakathon.jpeg",
+        "description": "\"Team Vizhelp\" secured 3rd runner-up of Rakuten Rakathon 2021. This Rakathan was organized by Rakuten India.  Around 6000 teams submitted their idea as per the themes of Rakuten. Indian Institute of Technology (Indian School of Mines), Dhanbad's students “Team Vizhelp” was the youngest team in the final round with their idea for the development of smart AI-based solutions to help visually disabled people lead normal lives by assisting them in their day-to-day tasks and ultimately reducing their dependence on others.",
+        "participants": "Aditya Kumar Garg, Priyansh Sharma, Pratham Pahariya, Ishal",
+        "brief": "Team Vizhelp - 3rd Runner up in the Rakuten India Rakathon 2021"
+    },
+    {
+        "title": "3rd Runner up in Honda Hackathon among 2361 teams",
+        "image": "images/Drunk and Drowsiness Detector.png",
+        "description": "When drowsy, people can’t react to stimuli in the environment. And thus, we test the response of driver as a measure of drowsiness. The voice assistant in the car asks for a verbal response at a frequency that’s neither too high as to disturb the driver nor too low to check if the driver is asleep. Alexa is triggered to ask questions depending upon the pattern of driving. The solution can be extended to even drivers with a little or no experience who otherwise create ruckus on street.",
+        "participants": "Surya Prakash Mishra, Swaraj Jain, Harshit Gupta, Harsh Kumar Singh",
+        "brief": "3rd Runner up in Honda Hackathon among 2361 teams"
+    },
+    {
         "title": "Tech Monks Startup",
         "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/techmonk.png",
         "description": "Tech Monks Engineering Solutions LLP is a startup founded by the alumni of RoboISM. Their product 'Digital Punch Card' saves 20-25 days of time and work per design of saree, which was earlier required to build manual punch cards for sarees. Digital Punch Card is an electronic device which uses the saree's design in bitmap file and is more lasting than the manual one. The device future gives direction to the power loom machine for the weaving.",
@@ -7,11 +28,11 @@
         "brief": "Tech Monks startup, provides new direction to the power loom machine for weaving"
     },
     {
-        "title": "KPMG Ideation Challenge 2020 Winners",
+        "title": "Team Navcharitam - KPMG Ideation Challenge 2020 Winners",
         "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/KPMG.jpg",
-        "description": "The Global KPMG Ideation Challenge 2020 saw participants from 18 countries, pitching their ideas regarding newer ways of work using Data Analytics and Artificial Intelligence. Our team from RoboISM emerged victorious as the Global Challenge with their disruptive innovation in the mining industry to enable safer and more sustainable extraction.",
+        "description": "The Global KPMG Ideation Challenge 2020 saw participants from 18 countries, pitching their ideas regarding newer ways of work using Data Analytics and Artificial Intelligence. Our team, Team Navcharitam, from RoboISM emerged victorious as the Global Challenge with their disruptive innovation in the mining industry to enable safer and more sustainable extraction.",
         "participants": "Srajan Gupta, Parth Hetamsaria, Varnika Kumari, Sanchit Kumar",
-        "brief": "KPMG Ideation Challenge 2020 Winners - \"Disruptive Innovation\" in the Mining Industry"
+        "brief": "Team Navcharitam - KPMG Ideation Challenge 2020 Winners - \"Disruptive Innovation\" in the Mining Industry"
     },
     {
         "title": "3rd Position in Hack Fest 2K19",
