@@ -535,3 +535,56 @@ footer .menu__nav-item a {
         width: 100%;
     }
 }
+
+.center-logo {
+    display: block;
+    width: 125px;
+    margin: 0 auto 1.4rem;
+}
+
+.takshak-contacts-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 2.8rem 2.8rem 1.2rem;
+}
+
+.takshak-contact {
+    text-align: center;
+}
+
+.takshak-contact a {
+    font-weight: 400;
+    display: block;
+}
+
+.takshak-contact__name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    margin-bottom: .2rem;
+}
+
+.takshak-contact__position {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: .4rem;
+}
+
+.takshak-contact__phone {
+    font-size: 1.05rem;
+    font-family: 'Rubik';
+    margin-bottom: .2rem;
+}
+
+@media (max-width: 1024px) {
+    .takshak-contacts-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    .takshak-contact {
+        margin-bottom: 2.4rem;
+    }
+}
