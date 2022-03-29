@@ -136,6 +136,14 @@
       "backgroundPosition": "center 15%"
     },
     {
+      "name": "Prachi Singh",
+      "position": "Sophomore",
+      "image": "/images/members/sophomores/Prachi Singh.jpg",
+      "linkedin": "https://www.linkedin.com/in/prachi-singh-861868210",
+      "github": "https://github.com/prachisingh25",
+      "email": "20je0694@mech.iitism.ac.in"
+    },
+    {
       "name": "Pranay Pandey",
       "position": "Sophomore",
       "image": "/images/members/sophomores/Pranay Pandey.jpeg",
@@ -177,6 +185,14 @@
       "linkedin": "https://www.linkedin.com/in/shashvat-jain-847089210/",
       "github": "https://github.com/Shashvat-Jain",
       "email": "20je0897@mc.iitism.ac.in"
+    },
+    {
+      "name": "Shashwat Srivastava",
+      "position": "Sophomore",
+      "image": "/images/members/sophomores/Shashwat Srivastava.png",
+      "linkedin": "http://www.linkedin.com/in/shashwat-srivastava-44a937208",
+      "github": "https://github.com/Shashwat112",
+      "email": "akshatsrivastava112@gmail.com"
     },
     {
       "name": "Shobhit Kumar",
