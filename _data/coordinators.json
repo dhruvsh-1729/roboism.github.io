@@ -7,20 +7,20 @@
         "email": "zafar@iitism.ac.in"
     },
     {
-        "name": "Aditya Kumar Garg",
-        "position": "Coordinator",
-        "image": "/images/members/pre-finals/Aditya%20Kumar%20Garg.jpg",
-        "linkedin": "https://www.linkedin.com/in/aditya-kumar-garg-9a00b3192/",
-        "github": "https://github.com/aditya-kr-garg",
-        "email": "aditya.garg.rewa9800@gmail.com"
+        "name": "Aman Pandey",
+        "position": "Student Coordinator",
+        "image": "/images/members/sophomores/Aman Pandey.jpeg",
+       "linkedin": "https://www.linkedin.com/in/aman-pandey-a5600a1b9/",
+      "github": "https://github.com/Amanp16",
+      "email": "20je0109@pe.iitism.ac.in"
     },
     {
-        "name": "Surya Prakash Mishra",
-        "position": "Coordinator",
-        "image": "https://swaraj-jain.github.io/ROBOISM-Webpage/img/members/Surya%20Prakash%20Mishra.jpg",
-        "linkedin": "https://www.linkedin.com/in/surya-prakash-mishra-b69359192",
-        "github": "https://github.com/old-school-kid",
-        "email": "mishrasp393@gmail.com",
+        "name": "Harshit Sharma",
+        "position": "Tech Coordinator",
+        "image": "/images/members/sophomores/Harshit Sharma.jpeg",
+         "linkedin": "https://www.linkedin.com/in/harshit-s-025a91134/",
+      "github": "https://github.com/Zhedac",
+      "email": "20je0409@cse.iitism.ac.in",
         "backgroundPosition": "top"
     }
 ]
